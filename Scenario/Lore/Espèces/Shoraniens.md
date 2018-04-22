@@ -3,6 +3,9 @@
 Les Shoraniens sont des extraterrestres originaire de la planète Shora, située à des milliers d’années lumière de la Terre.
 ### Apparence :
 Les Shoraniens ont un corps grand et fin et des yeux légèrement excentrés leurs permettant d’avoir un champs de vision supérieur à 240 degrés. Le Shoranien moyen mesure un peu plus de 2 mètres de haut et donne l’impression d’avoir un corps rachitique. Leur morphologie très longiligne est dû à une gravité assez faible sur shora en comparaison de la Terre.
+### Personnalité:
+Une espèce très évoluée technologiquement qui ont une parfaite maitrise les voyages inter-stellaires et une maitrise partiel de la maitrise du temps (une espèce à la limite de transcender les 3 dimensions). Mais malgrès ce niveau technologique, l'espèce est en déclin dû à une dérive génétique les rendant stérile et leur technologies de clonage n'étant pas viable sur le long terme.
+Mais bien qu'ils soient très évolués et qu'il ai les moyens d'imposer une autorité, ils n'en font rien. Depus qu'ils ont tenté de partager leur savoir avec une espèce et que cette espère s'est finalement retourné contre eux (provoquant de lourdes de pertes cez eux et l'anéantissement de l'autre espèce), ils restent dans l'ombre et ne se font quasiment jamais remarqué par des espèce moins évoluées qu'eux.
 ### Système Politique :
 Les Shoranien ont un système politique très particulier et progressiste. En effet, un seul leader, qui est remplacé si il remplit mal son rôle poussant ainsi au perfectionnisme et à l’évolution constante. Grâce à ce mode de fonctionnement les Shoraniens ont progressé très rapidement pour atteindre en 5 000 ans un niveau technologique inimaginable.
 La sphère politique se compose d’un grand chef suprême, celui ci doit être fort physiquement comme psychologiquement car toute les décisions de survie et de développement de son espèce repose sur lui.

@@ -23,11 +23,33 @@ Le projet semble être dangereux et il parait alors de la plus grande importance
 Le projet Témoin est en fait un Shoranien (individu d’une espèce tres avancée technologiquement mais étant partie de Tria) maintenu en vie par une technologie inconnue jusqu'à ce qu’on le réveille. Le Shoranien possède dans sa mémoire toutes les connaissances de son espèce, qui avait déjà découvert les humains depuis longtemps. Il est donc capable de communiquer avec eux. Il leur explique brièvement ce qui s’est passé sur Tria (voir Lore), c’est au joueur de trouver des indices pour avoir des détails.
 Le Shoranien leur demande ensuite s’ils sont au courant que le temps s’écoule bien plus vite dans le complexe, donc qu’il s’est passé 3 ans depuis qu’ils sont entrés. Les survivants rejoignent donc rapidement la base.
 ### Chapitre 3: La Resistance
-Quand ils arrivent dans la base, ils voient qu’elle a été totalement détruite. Ils sont pris par surprise par un groupe de résistants humains qui voient ensuite que les survivants sont dans leur camp. Ils leur expliquent que la base a été détruite par les Trianiens, en surnombre, il y a 1 an. Depuis, le groupe de résistants essaye de rassembler des armes pour lancer une attaque contre un énorme canon posé sur la lune de Tria (ou vivent les Trianiens) et destiné a tirer sur le 3e vaisseau a son arrivée (Il faut trouver un truc qui empêche les résistants de simplement communiquer avec le vaisseau pour lui dire de faire demi tour).
+Quand ils arrivent dans la base, ils voient qu’elle a été totalement détruite. Ils sont pris par surprise par un groupe de résistants humains qui voient ensuite que les survivants sont dans leur camp. Ils leur expliquent que la base a été détruite par les Trianiens, en surnombre, il y a 1 an. Depuis, le groupe de résistants essaye de rassembler des armes pour lancer une attaque contre un énorme canon posé sur la lune de Tria (ou vivent les Trianiens) et destiné a tirer sur le 3e vaisseau a son arrivée. Il faut trouver un truc qui empêche les résistants de simplement communiquer avec le vaisseau pour lui dire de faire demi tour, possibilités:  
+- Le message a déjà été envoyé au CSS Mankind, mais le temps qu'il arrive et que le vaisseau fasse demi tour, il sera deja a portée des canons, la seule solution est de détruire les canons pour lui donner le temps de faire demi tour.
 ## Partie 3:
 ### Chapitre 1: I believe I can fly
 Le Shoranien n’a pas les matériaux ni les machines pour fabriquer des vaisseaux spatiaux, mais il peut fabriquer des munitions hautement perforantes et explosives, et des boucliers de protection. Il va donc booster les chars des résistants. Avec ces chars, les résistants lancent une attaque massive sur la ville. Leur objectif est une base militaire contenant des dizaines de vaisseaux capables de rejoindre la lune de Tria. Ils arrivent aux vaisseaux et les protègent 2 minutes le temps que le Shoranien installe des boucliers de protection dessus. Puis ils décollent vers la lune de Tria.
 ### Chapitre 2: Rejoindre la lune
 Mais les ennuis ne font que commencer puisqu’ils tombent sur un petit comité d’accueil à l’approche de la lune, s’en suit une bataille spatiale. Le but est de protéger le bombardier qui lui fonce directement vers la lune. Arrivés au dessus de la base ou est situé le canon, ils remarquent qu’il n’y a pas un mais 2 cannons espacés de quelques kilomètres. Ils en bombardent un mais le bombardier est ensuite détruit.
 ### Chapitre 3: Sauver CSS Mankind
-Les résistants n’ont plus le choix, ils n’ont plus de munitions, ils doivent se poser et poser une charge sur le point faible du canon. Ils se posent près d’un hangar ou ils récupèrent des chars, avancent avec ces chars jusqu’au canon et entrent dans la salle de contrôle. Ils entrent en utilisant leurs fusils d’assaut boosté aux hormones et posent des charges partout, puis ils sortent en faisant tout exploser derrière eux.
+Les résistants n’ont plus le choix, ils n’ont plus de munitions, ils doivent se poser et poser une charge sur le point faible du canon. Ils se posent près d’un hangar ou ils récupèrent des chars, avancent avec ces chars jusqu’au canon et entrent dans la salle de contrôle. Ils entrent en utilisant leurs fusils d’assaut boosté aux hormones: leur objectif est de faire exploser la salle.
+
+### Fins possibles [Basiques]
+[Fin nº1]
+Ils arrivent a poser une bombe mais restent pour la protéger. Ils explosent avec le canon, sauvant le CSS Mankind.
+
+[Fin nº2]
+Les humains n'arrivent pas à poser la bombe, le CSS Mankind est annihilé, les resistants sont tués ou emprisonnés.
+
+[Fin nº3]
+Les humains explosent la ville trian, mais quelques rescapés arrivent jusqu'au CSS Mankind et le font se crasher sur la base humaine. Les deux civilisations disparaissent et les shoraniens prennent le contrôle de l'univers
+
+[Fin nº4]
+Ils posent la bombe et un des joueurs reste pour la protéger, les autres fuient a bord de leurs vaisseaux.
+
+### Fins possibles [Rares]
+[Fin nº4]
+Après avoir réalisé des quêtes annexes, la révolution gronde chez les trianiens; les dirigeants sont assassinés. Les chefs humains prennent peur et s'enfuient, mais un groupe humain rebelle les trouvent et les tuent. La paix est de retour sur Trian et les deux espèces cohabitent harmonieusement.
+
+[Fin nº5]
+Après avoir réalisé des quêtes annexes, le complot des shoraniens pour contrôler l'univers est mis à jour. Les trianiens et les terriens s'allient face à cette nouvelle menace, tandis que la flotte shoranienne s'approche des tréfonds de l'univers...
+
