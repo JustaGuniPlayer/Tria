@@ -15,20 +15,28 @@ Dans le combat, (2)__________ fût touché et ses systèmes de navigation étaie
 
 Pendant ce temps, (3)__________ et (4)__________ quand à eux étaient arrivé à presque 500 mètres du lieu prévu avec un un autre civil et et entendèrent des bruits de tirs et des cris pendant plusieurs minutes. Il commencèrent à se diriger vers le lieu prévu mais une fois arrivé sur place, des créatures gardaient les lieux et un nombre incalculable de cadavres humains gisaient au sol et dans les capsules de sauvetage. (4)__________ ne supportant pas cette vision d'horreur vomit en pleurant et gémissant. Les créatures, interpelées, se dirigaient vers eux. Ils devaient alors se cacher. Ils trouvèrent une endroit avec plein de petites cachettes et décidèrent de se séparer. La créature trouva le civil et avant même qu'il ai le temps de crier, il se fit abattre. (1)__________ et (2)__________ profitèrent du bruit des animaux pour s'enfuir avant que la créature ne les trouve aussi. Malheureusement pour eux, il y avait des créatures dans tous les coins. Ils décidèrent donc de rejoindre une colline pour y lancer ue fusée de détresse et ainsi se faire sauver par les humain qui, ils l'espéraient, arriveraient plus vite que les créatures. C'est à ce moment là qu'ils virent 2 vaisseaux entrer dans l'atmosphère. Ceux de (2)__________ et (1)__________. La colline se trouvait entre les deux groupes qui se rejoignèrent en haut.
 
-### Chapitre 2: Les lois de la nature                                                                                            
+### Chapitre 2: Les lois de la nature
+Une fois en haut de la colline, les survivants tirèrent une fusée de détresse afin de prévenir les humains. Après quelques dizaines de secondes, ils entendèrent des bruits de vehicule s'approchant d'eux. Ces véhicules n'étant clairment pas humain, les survivant prirent la fuite. Peu de temps après, des vaisseaux, ressemblant a ceux qui ont attaqué le CSS Mankind I, survolent le ciel et repèrent les survivants. Ces derniers se retrouvent alors forcés de s'enfoncer dans la jungle. Fort heureusement, les vaisseaux ennemis ne pouvaient pas faire de sur place. Ils devaient donc survoler les survivant puis partir pour faire demi tour et revenir, ce qui laisser le temps aux survivants d'avancer et de se cacher. C'est alors que les survivants firent la connaissance de la faune locale qui n'était pas très accueillante. Après plusieurs minutes, ils se retrouvèrent au bord d'une falaise avec une chut d'eau à proximité. Les vaisseaux ennemis arrivant et la faune faisant barrage pour s'échaper, les survivant fûrent forcé de sauter. Le prof d'histoire, désorienté, manqua de se noyer mais un aure survivant lui porta secourt. Une fois sorti de l'eau, ils virent une sorte d'entrpot de pâche et un petit port dont l'architecture faisait penser à celle des humains. Ils trouvèrement un peu de matériel ainsi qu'un garage contenant plusieurs hoverbikes. Chaque survivant en prit un. Ils commencèrent alors à rouler le long du sentier jusqu'a ce qu'un des vaisseau les surprirent. Ils s'enfoncèrent de nouveau dans la forêt et évitant les arbres et les tirs des vaisseaux. Soudain, des tirs venant du sol détruisèrent les vaisseaux ennemis. Les survivant rejoignèrent alors la source de ces tirs qui semblait être huamine. Ils avaient vu juste, un convoit armé était apparament venu les secourir. Ils prirent alors place dans les tourelles des vehicules, sous la demande du chef du convoit et tirèrent sur tous les vaisseaux et annimaux qui s'approchaient d'eux.
 
-### Chapitre 3: Courir ou mourir
+### Chapitre 3: Caché dans les tréfonds
+-> Découvrent la citée souterraine. Plein de quête secondaires, la quête princiapale n'est disponnible qu'après 2 quêtes secondaires effectuées
 
 ## Partie 2:
-### Chapitre 1: Caché dans les tréfonds
+### Chapitre 1: La citée phantome
+-> Expedition vers les vestiges de la ville Shoranienne, exploration, ambience de film d'horreur (la ville ayant été abandonné suite à une attaque Shoranienne sur ses habitants, elle est en partie en ruine et des squelettes sont disséminés un peu partout)
 
-### Chapitre 2: La guerre pour la paix
+### Chapitre 2: Projet Témoins
+-> Découverte d'une chambre contenant un projet nommé "Témoin": un tube de stase contenant ce qui semble être un Shoranien. Cette salle, isolée et fortifiée était la seule qui disposait encore d'écrans en état de marche. C'est là que les humains apprirent l'histoire des Shoraniens.
 
-### Chapitre 3: Dernier espoir
+### Chapitre 3: Home sweet home
+-> Retour à la citée souterraine. Plein de quête secondaires, la quête princiapale n'est disponnible qu'après 2 quêtes secondaires effectuées
 
 ## Partie 3:
-### Chapitre 1: Evasion
+### Chapitre 1: En route pour Hestia
+-> Infiltration pour atteindre la carcasse du CSS Scout puis décollage avec les chasseurs puis bataille spatiale remporté par les Hestiens
 
-### Chapitre 2: La vérité cachée
+### Chapitre 2: Evasion
+-> Après s'être fait capturé, les humains recoivent l'aide d'un scientifique Hestien pour se libérer. Ils ont donc le choix de s'évader de façon furtive, bourrin ou en utilisant des diversions.
 
 ### Chapitre 3: Ultimatum
+-> Retour à la citée souterraine. Plein de quête secondaires, après 2 ou 3 quêtes secondaires effectuées, une missions principale se lance, laissant les joueurs façe à l'ultimatum
