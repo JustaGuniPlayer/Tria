@@ -1,0 +1,9 @@
+transparent: All the blocks bullets can go through
+glass: All the blocks that triggers the glass event when bullets go through it
+nobulletevent: All the blocks bullets can go through without triggering an event
+cangothrough: All the blocks AIs pathfinding should consider not blocking
+
+
+
+
+Ces listes sont loin d'etre terminées x)
