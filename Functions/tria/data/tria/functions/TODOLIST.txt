@@ -1,0 +1,33 @@
+TEMP:
+tria:main dans Story
+
+
+
+
+
+TODO:
+
+AI Combat:
+fightstates/searching-child1: fonction de passage derriere le joueur
+Faire rapprocher a r=2 et lancer Res a r=3.5
+
+Balles:
+Tags de blocks: remplir + meilleurs noms + description
+
+GroundWeapons:
+systeme de drop/récupération des armes
+
+Systeme de mort du joueur: 
+améliorer fiabilité 
+ajout blindness
+lock des armes
+
+Autres:
+Dire a AZ de mettre LinearMoving
+Mort: blocage des slots
+
+
+
+
+A NE PAS OUBLIER:
+fake player ID doit toujours etre initialisé a 4 !
