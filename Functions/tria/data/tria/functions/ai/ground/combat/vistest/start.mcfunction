@@ -9,7 +9,10 @@ execute as @e[tag=InitVisTest] at @s run scoreboard players operation @s Team = 
 execute as @e[tag=InitVisTest] at @s run scoreboard players operation @s TargetID = @e[tag=StartVisTest,tag=!BlockVisTests,distance=..0.1,limit=1,sort=nearest] TargetID
 
 # Make the fake bullet look at an enemy. If the shooter has a target, it will be this one, otherwise, it chooses a random one
-execute as @e[tag=InitVisTest,scores={Team=1,TargetID=0}] at @s run scoreboard players operation @s TargetID = @e[tag=CanBeShot,scores={Team=-1},distance=..80,limit=1,sort=random] ID
+# If the shooter is an enemy it has 1/2 chances of choosing a player, and 1/2 chances of choosing an AI
+execute as @e[tag=InitVisTest,scores={Team=1,TargetID=0,Random=1}] run scoreboard players operation @s Random = @e[tag=Random,scores={Random=1..2},limit=1,sort=random] Random
+execute as @e[tag=InitVisTest,scores={Team=1,TargetID=0,Random=1}] at @s run scoreboard players operation @s TargetID = @e[type=!player,tag=CanBeShot,scores={Team=-1},distance=..80,limit=1,sort=random] ID
+execute as @e[tag=InitVisTest,scores={Team=1,TargetID=0,Random=2}] at @s run scoreboard players operation @s TargetID = @e[type=player,tag=CanBeShot,scores={Team=-1},distance=..80,limit=1,sort=random] ID
 execute as @e[tag=InitVisTest,scores={Team=-1,TargetID=0}] at @s run scoreboard players operation @s TargetID = @e[tag=CanBeShot,scores={Team=1},distance=..80,limit=1,sort=random] ID
 
 # Stops the test if there is no target

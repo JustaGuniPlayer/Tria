@@ -31,6 +31,9 @@ execute if entity @e[scores={FightState=6}] run function tria:ai/ground/combat/f
 # Changes an entity's fight state if requested
 execute if entity @e[scores={NewFightState=1..}] run function tria:ai/ground/combat/fightstates/change
 
+# Small Random Movements
+execute if entity @e[scores={SRmoves=1..}] run function tria:ai/ground/combat/tools/srmoves
+
 # AIs or players to revive
 execute if entity @e[tag=Dead] run function tria:ai/ground/combat/death/dead
 
@@ -59,7 +62,7 @@ execute as @e[tag=FightWithPlayer,scores={FightState=3,1stCdShoot=40..}] at @s u
 # SB = SearchBullets
 # TF = TestFrequency
 
-# Searching: SB, TF = 10, after 8 unsuccessful tests: goes to 2
+# Searching: SB, TF = 10, after 4 unsuccessful tests: goes to 2
 # Waiting: SB, TF = 20
 # Shooting: SB, TF = -1, shoots
 # Moving: SB, TF = 5, moves
@@ -92,6 +95,7 @@ execute as @e[tag=FightWithPlayer,scores={FightState=3,1stCdShoot=40..}] at @s u
 #CanBeAlive: Security score. All the entities with 0 are killed. When their score is negative it goes up (-20 allows an entity to live one second).
 #Walking (minecraft.custom:minecraft.walk_one_cm): 0 when static, 1+ when walking
 #MoveEndings: The number of movements a target can end before being removed (-1 = unlimited)
+#SRmoves: Small Random Moves. If this score is positive the armor stand makes small random moves
 
 # Tags:
 #Data: Only the Data armor stand has this tag. NO OTHER ENTITY SHOULD GET THIS TAG.

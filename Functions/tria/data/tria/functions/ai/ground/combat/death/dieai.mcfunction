@@ -7,7 +7,7 @@ scoreboard players set @s NewFightState 7
 execute at @s run tp @s ~ ~-0.9 ~
 data merge entity @s {NoGravity:1}
 scoreboard players set @s ReviveTime 0
-scoreboard players set @s Health 300
+scoreboard players set @s Health 600
 tag @s add Dead
 
 # Summons the target

@@ -20,7 +20,10 @@ tag @e[tag=SafeZoneRight] add InSafeZone
 tag @e[tag=SafeZoneLeft] add InSafeZone
 
 # Arms animation
-execute as @e[tag=InSafeZone] run data merge entity @s {Pose:{RightArm:[0f,0f,0f],LeftArm:[0f,0f,0f]}}
+execute as @e[tag=InSafeZone,tag=SafeZoneReload] run data merge entity @s {Pose:{RightArm:[0f,0f,0f],LeftArm:[0f,0f,0f]}}
+
+# Small Random movements
+scoreboard players set @e[tag=InSafeZone,tag=SafeZoneReload] SRmoves 0
 
 tag @e remove SafeZoneReload
 

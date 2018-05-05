@@ -1,14 +1,4 @@
 # Ground Weapons / Recoil 2
 # Recoil of the secondary weapon
 
-# Summons an armor_stand with the orientation of the player
-execute as @a[tag=Recoil2] at @s run summon armor_stand ~ ~ ~ {NoGravity:1,Invisible:1,Marker:1,Tags:["RecoilAS"]}
-execute as @e[tag=RecoilAS] at @s run tp @s @p[distance=..0.1,tag=Recoil2]
-
-# Adds the recoil of the current weapon
-execute as @e[tag=RecoilAS] store result score @s Var1 run data get entity @s Rotation[1] 10
-execute as @e[tag=RecoilAS] at @s run scoreboard players operation @s Var1 -= @p[distance=..0.1,tag=Recoil2] 2ndRecoil
-execute as @e[tag=RecoilAS] store result entity @s Rotation[1] float 0.1 run scoreboard players get @s Var1
-
-# Teleports the player his new orientation
-execute as @e[tag=RecoilAS] at @s at @p[distance=..0.1,tag=Recoil2] rotated as @s run teleport @p[distance=..0.1,tag=Recoil2] ~ ~ ~ facing ^ ^ ^1
+execute as @a[scores={2ndRecoil=80}] at @s run tp @s ~ ~ ~ ~ ~-8

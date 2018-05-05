@@ -1,6 +1,6 @@
 # Spawns a MainAI
 
-summon armor_stand ~ ~ ~ {ShowArms:1,Tags:["MainAI","CanBeAlive","InitMainAI"],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:player_head",Count:1b}]}
+summon armor_stand ~ ~ ~ {ShowArms:1,DisabledSlots:2039583,Tags:["MainAI","CanBeAlive","InitMainAI"],ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{id:"minecraft:player_head",Count:1b}]}
 
 scoreboard players set @e[tag=InitMainAI] Team 1
 

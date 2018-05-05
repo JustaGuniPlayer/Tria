@@ -18,6 +18,9 @@ execute as @e[scores={NewFightState=1..}] run data merge entity @s {Pose:{RightA
 # Leaves the safe zone
 tag @e[scores={NewFightState=1..},tag=InSafeZone] add ExitSafeZone
 
+# Small Random movements
+scoreboard players set @e[scores={NewFightState=1..}] SRmoves 0
+
 # Resets the Target if the entity doesn't want to shoot
 execute as @e[scores={NewFightState=1..}] unless entity @s[scores={NewFightState=3}] run scoreboard players set @s TargetID 0
 

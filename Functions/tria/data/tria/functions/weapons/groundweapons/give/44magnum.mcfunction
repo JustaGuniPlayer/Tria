@@ -11,9 +11,9 @@ scoreboard players set @s 2ndReloadTime 100
 # Loader Size
 scoreboard players set @s 2ndLoadCapacity 6
 
-# Bullets Damages
-scoreboard players set @s 2ndWeaponDamage 15
-scoreboard players set @s 2ndHeadDamage 22
+# Bullets Damages (20 = one heart)
+scoreboard players set @s 2ndWeaponDamage 90
+scoreboard players set @s 2ndHeadDamage 180
 
 # Unaccuracy of the weapon. The higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Unaccuracy degrees)
 scoreboard players set @s 2ndUnaccuracy 10

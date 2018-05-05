@@ -29,7 +29,7 @@ tag @e[scores={gestureTime=-1},tag=gesture] add doGesture
 scoreboard players add @e[tag=doGesture] gesturePart 1
 
 	#gesture functions manager
-execute if entity @e[tag=doGesture,scores={gesture=1},limit=1] run function gunivers-lib:system/gesture/speech
+execute if entity @e[tag=doGesture,scores={gesture=1},limit=1] run function tria:ai/animation/gesture/speech
 
 	#reset
 tag @e[tag=doGesture] remove doGesture

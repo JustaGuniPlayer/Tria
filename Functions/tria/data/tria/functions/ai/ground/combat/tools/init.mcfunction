@@ -11,4 +11,4 @@ execute unless entity @s[scores={ID=1..}] run function tria:adaptedlib/entity/id
 
 # Necessary tags and scores
 tag @s add AIFighting
-scoreboard players set @s Health 20
+scoreboard players set @s Health 200

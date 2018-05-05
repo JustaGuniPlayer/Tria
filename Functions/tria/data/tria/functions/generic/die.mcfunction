@@ -2,7 +2,7 @@
 
 execute at @s run tp @s ~ ~-0.9 ~
 scoreboard players set @s ReviveTime 0
-scoreboard players set @s Health 50
+scoreboard players set @s Health 200
 tag @s add Dead
 tag @s remove CanBeShot
 
