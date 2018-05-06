@@ -16,5 +16,5 @@ execute as @e[type=!player,tag=Dead,scores={ReviveTime=80..}] run function tria:
 execute as @a[tag=Dead,scores={ReviveTime=80..}] run function tria:generic/revive
 
 #Calls the nearest main AI
-execute at @e[tag=Dead] run scoreboard players set @e[tag=MainAI,scores={FightState=..4},distance=..3.5,limit=1,sort=nearest] NewFightState 5
+execute at @e[tag=Dead] run scoreboard players set @e[tag=MainAI,scores={FightState=..4},distance=..2,limit=1,sort=nearest] NewFightState 6
 execute unless entity @e[scores={FightState=5..6}] run function tria:ai/ground/combat/death/dead-call
