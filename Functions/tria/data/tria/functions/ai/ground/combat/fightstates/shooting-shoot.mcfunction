@@ -10,4 +10,5 @@ tag @e[scores={1stCdShoot=..0,FightState=3}] add Shoot
 scoreboard players remove @e[scores={1stCdShoot=..0,FightState=3}] 1stAmoLoaded 1
 
 # Sets the time before the next shot
-execute as @e[scores={1stCdShoot=..0,FightState=3}] run scoreboard players operation @s 1stCdShoot = @s 1stFirerate
+execute as @e[scores={1stCdShoot=..0,FightState=3}] run scoreboard players operation @s 1stCdShoot = @e[tag=Random,scores={Random=1..5},limit=1,sort=random] Random
+execute as @e[scores={1stCdShoot=..0,FightState=3}] run scoreboard players operation @s 1stCdShoot += @s 1stFirerate

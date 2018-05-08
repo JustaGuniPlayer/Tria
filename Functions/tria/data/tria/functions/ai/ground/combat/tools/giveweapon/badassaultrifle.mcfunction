@@ -2,7 +2,7 @@
 # Gives a weapon to the source entity
 
 # Firerate and reload time
-scoreboard players set @s 1stFirerate 4
+scoreboard players set @s 1stFirerate 1
 scoreboard players set @s 1stReloadTime 80
 
 # Loader Size

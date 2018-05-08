@@ -41,7 +41,7 @@ kill @e[scores={CanBeAlive=0},type=!player]
 # ---- Story ----------------------------------------------------------------------------------------------
 
 #TEMPORAIRE: Apres ce sera dans les fichiers de chaque chapitre
-function tria:ai/ground/actfight
+function tria:systemsactivations/aiinfantry
 function tria:weapons/groundweapons/main
 function tria:adaptedlib/entity/health/sethealth
 

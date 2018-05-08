@@ -32,7 +32,7 @@ effect clear @a regeneration
 effect clear @a poison
 effect clear @a resistance
 
-execute as @a[scores={Health=..0},nbt={OnGround:1b}] run function tria:generic/die
+execute as @a[scores={Health=..9},nbt={OnGround:1b}] run function tria:generic/die
 
 execute as @a run scoreboard players operation @s Var1 = @s Health
 scoreboard players operation @a Var1 /= 10 Constant

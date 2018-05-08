@@ -20,7 +20,7 @@
 
 #Code:
 	#Get Current Speed
-execute as @e[type=horse, tag=vehicle] store result score @s Tmp4 run data get @s Attributes[2].Base 1000
+execute as @e[type=horse, tag=vehicle] store result score @s Tmp4 run data get entity @s Attributes[2].Base 1000
 
 	#Accelerate if has moved
 execute as @e[type=horse, tag=vehicle, scores={onHorseWalk=1..}] unless score @s Tmp4 >= @s Tmp2 run scoreboard players operation @s Tmp4 += @s Tmp3

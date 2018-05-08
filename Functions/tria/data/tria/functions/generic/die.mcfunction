@@ -5,6 +5,7 @@ scoreboard players set @s ReviveTime 0
 scoreboard players set @s Health 200
 tag @s add Dead
 tag @s remove CanBeShot
+execute as @s at @s run playsound minecraft:entity.player.hurt ambient @s
 
 # Summons the target
 execute at @s positioned ~ ~1 ~ run function tria:ai/ground/movement/basic/placetarget
