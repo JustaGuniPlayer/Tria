@@ -87,5 +87,6 @@ execute as @e[tag=doGesture, scores={gesturePart=77, gesture=2}] run data merge 
 execute as @e[tag=doGesture, scores={gesturePart=78, gesture=2}] run data merge entity @s {Pose:{Head:[0f,0f,0f], LeftArm:[-10f, 6f,0f], RightArm:[-10f, -3f, -4f]}}
 execute as @e[tag=doGesture, scores={gesturePart=79, gesture=2}] run data merge entity @s {Pose:{Head:[0f,0f,0f], LeftArm:[ -5f, 3f,0f], RightArm:[ -5f, -1f, -2f]}}
 execute as @e[tag=doGesture, scores={gesturePart=80, gesture=2}] run data merge entity @s {Pose:{Head:[0f,0f,0f], LeftArm:[ -0f, 0f,0f], RightArm:[ -0f, -0f, -0f]}}
+
 	#Reset
 scoreboard players set @e[tag=doGesture, scores={gesturePart=80.., gesture=2}] gesturePart 0

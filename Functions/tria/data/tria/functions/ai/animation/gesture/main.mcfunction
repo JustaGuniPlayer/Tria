@@ -11,11 +11,12 @@
 # - gesture (score dummy)
 # - gestureTime (score dummy)
 # - gesturePart (score dummy)
+# - gestureSpeed (score dummy)
 
 #Input:
 # - gestureTime (score dummy)
 # - gesture (score dummy)
-# - gesture (tag)
+# - gestureSpeed (score dummy)
 
 #Output: /
 
@@ -27,11 +28,12 @@ scoreboard players remove @e[tag=doGesture] gestureTime 1
 tag @e[scores={gestureTime=-1}, tag=!gesturePause] add doGesture
 
 	#gesturePart adder
-scoreboard players add @e[tag=doGesture] gesturePart 1
+execute as @e[tag=doGesture] run scoreboard players operation @s gesturePart += @s gestureSpeed
 
 	#gesture functions manager
 execute if entity @e[tag=doGesture,scores={gesture=1},limit=1] run function tria:ai/animation/gesture/speech
 execute if entity @e[tag=doGesture,scores={gesture=2},limit=1] run function tria:ai/animation/gesture/reload
+execute if entity @e[tag=doGesture,scores={gesture=3},limit=1] run function tria:ai/animation/gesture/walk
 
 	#reset
 tag @e[tag=doGesture] remove doGesture
@@ -50,3 +52,4 @@ tag @e[tag=doGesture] remove doGesture
 #Gestures List:
 # 1: speech
 # 2: reload
+# 3: walk
