@@ -2,6 +2,7 @@
 
 # Summons the bullet
 execute as @e[tag=Shoot] at @s run summon armor_stand ~ ~ ~ {Tags:["Bullet","InitBullet","CanBeAlive"],NoGravity:1,Marker:1,Invisible:1}
+execute if entity @e[tag=ShootShotgun] run function tria:weapons/bullets/shootshotgun
 
 # Teleports it to the shooter
 execute as @e[tag=InitBullet] at @s run tp @s @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest]

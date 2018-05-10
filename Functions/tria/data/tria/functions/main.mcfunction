@@ -42,8 +42,10 @@ kill @e[scores={CanBeAlive=0},type=!player]
 
 #TEMPORAIRE: Apres ce sera dans les fichiers de chaque chapitre
 function tria:systemsactivations/aiinfantry
-function tria:weapons/groundweapons/main
-function tria:adaptedlib/entity/health/sethealth
+function tria:systemsactivations/aigesture
+function tria:systemsactivations/playerhealth
+function tria:systemsactivations/playergroundweapons
+function tria:weapons/canon/main
 
 # ---- Weapons --------------------------------------------------------------------------------------------
 
@@ -56,8 +58,8 @@ execute if entity @e[tag=Bullet] run function tria:weapons/bullets/main
 # ---- Other ----------------------------------------------------------------------------------------------
 
 #Explosions
-#You can make any entity explode by running Tria:Generic/Explosions/(Small/Big/Huge)Expl on it
-execute as @e[tag=HugeExpl] run function tria:generic/explosions/hugeexplparticles
+#You can make any entity explode by running tria:generic/explosions/(small/big/huge)expl on it
+execute as @e[tag=HugeExpl] at @s run function tria:generic/explosions/hugeexplparticles
 execute if entity @a[scores={AnimExpl=1..}] run function tria:generic/explosions/animexpl
 
 #Effects

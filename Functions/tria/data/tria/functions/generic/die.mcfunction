@@ -5,6 +5,7 @@ scoreboard players set @s ReviveTime 0
 scoreboard players set @s Health 200
 tag @s add Dead
 tag @s remove CanBeShot
+tag @s remove Health0
 execute as @s at @s run playsound minecraft:entity.player.hurt ambient @s
 
 # Summons the target

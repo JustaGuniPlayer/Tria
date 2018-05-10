@@ -22,6 +22,6 @@ scoreboard players set @s 2ndUnaccuracy 10
 scoreboard players set @s 2ndRecoil 80
 
 # Other
-scoreboard players operation @s 2ndAmoLoaded = @s 2ndLoadCapacity
+scoreboard players set @s 2ndAmoLoaded 0
 scoreboard players add @s 2ndCdShoot 0
 scoreboard players add @s 2ndReloading 0

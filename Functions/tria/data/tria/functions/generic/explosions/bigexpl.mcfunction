@@ -1,6 +1,6 @@
 
 #Particles
-particle explosion ~ ~ ~ 2 2 2 0.1 10 force
+particle explosion_emitter ~ ~ ~ 2 2 2 0.1 10 force
 particle smoke ~ ~ ~ 2 2 2 0.2 100 force
 particle block coal_block ~ ~ ~ 2 0 2 0.1 80 force
 

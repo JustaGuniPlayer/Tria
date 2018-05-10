@@ -2,6 +2,7 @@
 # Recoil of the main weapon
 
 execute as @a[scores={1stRecoil=10}] at @s run tp @s ~ ~ ~ ~ ~-1
+execute as @a[scores={1stRecoil=100}] at @s run tp @s ~ ~ ~ ~ ~-10
 
 
 # Old fancy system:

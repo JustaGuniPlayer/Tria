@@ -32,11 +32,13 @@ effect clear @a regeneration
 effect clear @a poison
 effect clear @a resistance
 
-execute as @a[scores={Health=..9},nbt={OnGround:1b}] run function tria:generic/die
+tag @a[scores={Health=..9}] add Health0
+execute as @a[tag=Health0,nbt={OnGround:1b}] run function tria:generic/die
+scoreboard players set @a[tag=Health0] Health 200
 
 execute as @a run scoreboard players operation @s Var1 = @s Health
 scoreboard players operation @a Var1 /= 10 Constant
 
 execute as @a run scoreboard players operation @s Var1 -= @s HealthRead
-execute as @a[scores={Var1=1..}] run function tria:adaptedlib/entity/health/child/addhealth
-execute as @a[scores={Var1=..-1}] run function tria:adaptedlib/entity/health/child/removehealth
+execute as @a[scores={Var1=1..},tag=!Health0] run function tria:adaptedlib/entity/health/child/addhealth
+execute as @a[scores={Var1=..-1},tag=!Health0] run function tria:adaptedlib/entity/health/child/removehealth
