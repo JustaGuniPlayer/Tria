@@ -5,7 +5,7 @@ particle smoke ~ ~ ~ 2 2 2 0.2 100 force
 particle block coal_block ~ ~ ~ 2 0 2 0.1 80 force
 
 #Sounds
-#playsound
+playsound minecraft:entity.generic.explode ambient @a ~ ~ ~ 1
 
 #Degats
 scoreboard players remove @e[scores={Health=0},tag=!NoExplDamage,distance=..11] Health 4

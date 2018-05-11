@@ -5,6 +5,10 @@
 scoreboard players set @e[tag=BasicMoving] Walking 10
 execute as @e[tag=BasicMoving] run function tria:ai/ground/movement/basic/tponzombie
 
+# Animation
+scoreboard players set @e[type=armor_stand,scores={Walking=1..}] gesture 3
+scoreboard players set @e[type=armor_stand,scores={Walking=1..}] gestureTime 5
+
 # When the target is reached
 execute at @e[tag=BMVillager] run tag @e[tag=BasicMoving,distance=..3] add StopBM
 

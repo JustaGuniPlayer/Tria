@@ -17,4 +17,4 @@ execute as @e[tag=doGesture, scores={gesturePart= 9, gesture=4}] run data merge 
 execute as @e[tag=doGesture, scores={gesturePart=10, gesture=4}] run data merge entity @s {Pose:{Head:[0f,0f,0f], LeftArm:[ -0f, 0f,0f], RightArm:[ 0f,0f,0f]}}
 
 	#Reset
-scoreboard players set @e[tag=doGesture, scores={gesturePart=10, gesture=4}] gesturePart 0
+scoreboard players set @e[tag=doGesture, scores={gesturePart=10.., gesture=4}] gesturePart 0

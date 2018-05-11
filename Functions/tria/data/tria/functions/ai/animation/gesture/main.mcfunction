@@ -31,9 +31,10 @@ tag @e[scores={gestureTime=-1}, tag=!gesturePause] add doGesture
 execute as @e[tag=doGesture] run scoreboard players operation @s gesturePart += @s gestureSpeed
 
 	#gesture functions manager
-execute if entity @e[tag=doGesture,scores={gesture=1},limit=1] run function tria:ai/animation/gesture/speech
-execute if entity @e[tag=doGesture,scores={gesture=2},limit=1] run function tria:ai/animation/gesture/reload
-execute if entity @e[tag=doGesture,scores={gesture=3},limit=1] run function tria:ai/animation/gesture/walk
+execute if entity @e[tag=doGesture,scores={gesture=1}] run function tria:ai/animation/gesture/speech
+execute if entity @e[tag=doGesture,scores={gesture=2}] run function tria:ai/animation/gesture/reload
+execute if entity @e[tag=doGesture,scores={gesture=3}] run function tria:ai/animation/gesture/walk
+execute if entity @e[tag=doGesture,scores={gesture=4}] run function tria:ai/animation/gesture/reanimate
 
 	#reset
 tag @e[tag=doGesture] remove doGesture

@@ -4,7 +4,7 @@ scoreboard players set @s Timer1s 0
 tag @s add Timer1s
 
 #Sounds
-#playsound
+playsound minecraft:entity.generic.explode ambient @a ~ ~ ~ 5
 
 #Degats
 scoreboard players remove @e[scores={Health=0},tag=!NoExplDamage,distance=..16] Health 6

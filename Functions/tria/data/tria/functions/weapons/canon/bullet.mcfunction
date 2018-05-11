@@ -1,10 +1,13 @@
 # Weapons/Canon : Bullet
 
 # Tp
-execute as @e[tag=CanonBullet] at @s run tp @s ^ ^ ^1 
+execute as @e[tag=CanonBullet] at @s run tp @s ^ ^ ^2 
 
 # Particles
-execute as @e[tag=CanonBullet] at @s run particle cloud ~ ~ ~ 0.1 0.1 0.1 0 30 force
+execute as @e[tag=CanonBullet] at @s run particle cloud ~ ~ ~ 0.1 0.1 0.1 0 10 force
+execute as @e[tag=CanonBullet] at @s run particle cloud ^ ^ ^0.5 0.1 0.1 0.1 0 10 force
+execute as @e[tag=CanonBullet] at @s run particle cloud ^ ^ ^1 0.1 0.1 0.1 0 10 force
+execute as @e[tag=CanonBullet] at @s run particle cloud ^ ^ ^1.5 0.1 0.1 0.1 0 10 force
 
 # Kills the particle armor_stands
 execute as @e[tag=CanonBullet] at @s run kill @e[tag=RayParticles,distance=..2]
