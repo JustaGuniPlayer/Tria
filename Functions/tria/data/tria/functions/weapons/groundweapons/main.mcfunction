@@ -1,6 +1,8 @@
 # Ground Weapons Main Function
 # Made by: KubbyDev
 
+# Only for players
+
 tag @a remove Recoil1
 tag @a remove Recoil2
 
@@ -10,34 +12,19 @@ tag @a remove UseOffHand
 tag @a[nbt={Inventory:[{Slot:-106b}]}] add UseOffHand
 
 # Player actions
-tag @a[scores={ActiveSlot=0,UseCarrot=1..,InVehicle=0,1stWeapon=1..,1stReloading=0,1stCdShoot=0}] add ShootInput1
-tag @a[scores={ActiveSlot=1,UseCarrot=1..,InVehicle=0,2ndWeapon=1..,2ndReloading=0,2ndCdShoot=0}] add ShootInput2
-execute as @a[tag=UseOffHand,scores={ActiveSlot=0,InVehicle=0,1stReloading=0,1stAmo=1..,1stWeapon=1..}] unless score @s 1stAmoLoaded = @s 1stLoadCapacity run tag @s add ReloadInput1
-execute as @a[tag=UseOffHand,scores={ActiveSlot=1,InVehicle=0,2ndReloading=0,2ndAmo=1..,2ndWeapon=1..}] unless score @s 2ndAmoLoaded = @s 2ndLoadCapacity run tag @s add ReloadInput2
-#tag @a[score_Drop_min=1] add DropInput1
+execute if entity @a[scores={ActiveSlot=0..1,UseCarrot=1..,InVehicle=0},tag=!LockWeapons] run function tria:weapons/groundweapons/shootinput
+execute if entity @a[scores={ActiveSlot=0..1,InVehicle=0},tag=UseOffHand,tag=!LockWeapons] run function tria:weapons/groundweapons/reloadinput
+execute if entity @a[scores={ActiveSlot=0..1,Drop=1..,InVehicle=0},tag=!LockWeapons] run function tria:weapons/groundweapons/dropinput
 
-# Start Reload
-execute as @a[tag=ReloadInput1] run scoreboard players operation @s 1stReloading = @s 1stReloadTime
-execute as @a[tag=ReloadInput2] run scoreboard players operation @s 2ndReloading = @s 2ndReloadTime
-execute as @a[tag=ShootInput1,scores={1stAmoLoaded=0,1stAmo=1..}] run scoreboard players operation @s 1stReloading = @s 1stReloadTime
-execute as @a[tag=ShootInput2,scores={2ndAmoLoaded=0,2ndAmo=1..}] run scoreboard players operation @s 2ndReloading = @s 2ndReloadTime
-
-# Shoot
+# Firerate
 scoreboard players remove @a[scores={1stCdShoot=1..,ActiveSlot=0}] 1stCdShoot 1
 scoreboard players remove @a[scores={2ndCdShoot=1..,ActiveSlot=1}] 2ndCdShoot 1
-execute if entity @a[tag=ShootInput1,scores={1stAmoLoaded=1..}] run function tria:weapons/groundweapons/shoot1
-execute if entity @a[tag=ShootInput2,scores={2ndAmoLoaded=1..}] run function tria:weapons/groundweapons/shoot2
 
 # Reload
-scoreboard players remove @a[scores={1stReloading=1..,ActiveSlot=0}] 1stReloading 1
-scoreboard players remove @a[scores={2ndReloading=1..,ActiveSlot=1}] 2ndReloading 1
-execute as @a[scores={1stReloading=1,ActiveSlot=0}] run function tria:weapons/groundweapons/reload1
-execute as @a[scores={2ndReloading=1,ActiveSlot=1}] run function tria:weapons/groundweapons/reload2
-
-tag @a remove ShootInput1
-tag @a remove ShootInput2
-tag @a remove ReloadInput1
-tag @a remove ReloadInput2
+scoreboard players remove @a[scores={1stReloading=1..,ActiveSlot=0},tag=!LockWeapons] 1stReloading 1
+scoreboard players remove @a[scores={2ndReloading=1..,ActiveSlot=1},tag=!LockWeapons] 2ndReloading 1
+execute as @a[scores={1stReloading=1,ActiveSlot=0},tag=!LockWeapons] run function tria:weapons/groundweapons/reloading/reload1
+execute as @a[scores={2ndReloading=1,ActiveSlot=1},tag=!LockWeapons] run function tria:weapons/groundweapons/reloading/reload2
 
 # Display + Items
 execute if entity @e[tag=Data,tag=FRA] run function tria:weapons/groundweapons/displayanditemsfr

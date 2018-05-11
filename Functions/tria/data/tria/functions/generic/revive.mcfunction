@@ -3,6 +3,7 @@
 execute at @s run tp @s ~ ~1.2 ~
 scoreboard players set @s ReviveTime 0
 tag @s remove Dead
+tag @s remove LockWeapons
 tag @s add CanBeShot
 effect clear @s blindness
 

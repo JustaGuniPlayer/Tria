@@ -24,8 +24,8 @@ execute as @e[tag=InitBullet] at @s run tp @s ~ ~1.65 ~
 execute at @e[tag=InitBullet] positioned ^ ^ ^1 run playsound minecraft:entity.firework.blast_far ambient @a[distance=..50] ~ ~ ~ 1.8
 
 # Recoil
-execute if entity @a[tag=Recoil1] run function tria:weapons/groundweapons/recoil1
-execute if entity @a[tag=Recoil2] run function tria:weapons/groundweapons/recoil2
+execute if entity @a[tag=Recoil1] run function tria:weapons/groundweapons/shooting/recoil1
+execute if entity @a[tag=Recoil2] run function tria:weapons/groundweapons/shooting/recoil2
 
 tag @e remove InitBullet
 tag @e remove Shoot
