@@ -9,7 +9,7 @@ execute if entity @e[tag=FollowPlayer,tag=AIFighting] run function tria:ai/groun
 execute as @e[scores={FPrange=5},tag=FollowPlayer] run function tria:ai/ground/movement/followplayer/tp
 
 # Walking or running (FPrange = 3 or 4)
-execute as @e[scores={FPrange=3},tag=FollowPlayer] at @s run data merge entity @e[tag=BMZombie,tag=FPZombie,distance=..0.1,limit=1,sort=nearest] {Attributes:[{Name:generic.movementSpeed,Base:0.34}]}
+execute as @e[scores={FPrange=3},tag=FollowPlayer] at @s run data merge entity @e[tag=BMZombie,tag=FPZombie,distance=..0.1,limit=1,sort=nearest] {Attributes:[{Name:generic.movementSpeed,Base:0.36}]}
 execute as @e[scores={FPrange=4},tag=FollowPlayer] at @s run data merge entity @e[tag=BMZombie,tag=FPZombie,distance=..0.1,limit=1,sort=nearest] {Attributes:[{Name:generic.movementSpeed,Base:0.45}]}
 
 # Movement stop (FPrange = 1)

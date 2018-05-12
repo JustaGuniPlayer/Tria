@@ -36,6 +36,9 @@ execute if entity @e[tag=doGesture,scores={gesture=2}] run function tria:ai/anim
 execute if entity @e[tag=doGesture,scores={gesture=3}] run function tria:ai/animation/gesture/walk
 execute if entity @e[tag=doGesture,scores={gesture=4}] run function tria:ai/animation/gesture/reanimate
 
+	#position reset
+execute as @e[tag=doGesture, scores={gestureTime=0}, tag=!gestureNoReset] run function tria:ai/animation/gesture/reset
+
 	#reset
 tag @e[tag=doGesture] remove doGesture
 
@@ -48,9 +51,11 @@ tag @e[tag=doGesture] remove doGesture
 # Tags:
 #	- doGesture: When an entity has the doGesture tag, it can have a gesture
 #	- gesturePause: Make an entity not recognized by the system
+#	- gestureNoReset: Prevents an entity from being reset when its gesture ends
 ############################################################################################################
 
 #Gestures List:
 # 1: speech
 # 2: reload
 # 3: walk
+# 4: reanimate

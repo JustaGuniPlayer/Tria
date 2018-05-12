@@ -4,7 +4,7 @@
 # Also used for the player
 
 #Blocks any movement
-execute as @e[tag=ReviveTarget] at @s positioned ~ ~-1.1 ~ run tp @e[tag=Dead,distance=..1,limit=1,sort=nearest] ~ ~ ~
+execute as @e[tag=ReviveTarget] at @s positioned ~ ~-2 ~ run tp @e[tag=Dead,distance=..1,limit=1,sort=nearest] ~ ~ ~
 effect give @a[tag=Dead] blindness 5 0 true
 
 #Time to revive

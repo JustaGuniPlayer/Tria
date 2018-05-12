@@ -6,3 +6,7 @@ execute as @e[scores={FightState=6}] at @s unless entity @e[tag=Dead,distance=..
 
 # Switches to the Shooting Fight State if it has a target (because of the SearchBullet)
 scoreboard players set @e[scores={FightState=6,TargetID=1..}] NewFightState 1
+
+# Animation
+scoreboard players set @e[scores={FightState=6}] gesture 4
+scoreboard players set @e[scores={FightState=6}] gestureTime 5

@@ -1,7 +1,7 @@
 # Ground Weapons / Drop 1st Weapon
 
 # Summons the dropped weapon
-summon armor_stand ~ ~ ~ {Invisible:1,Tags:["CanBeAlive","Dropped1stWeapon","InitDropped"],Marker:1,HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b},{}]}
+summon armor_stand ~ ~ ~ {Invisible:1,Tags:["CanBeAlive","Dropped1stWeapon","InitDropped"],Marker:1,DisabledSlots:2039583,HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b},{}]}
 
 # Transfers the informations of the weapon
 scoreboard players operation @e[tag=InitDropped] 1stWeapon = @s 1stWeapon
