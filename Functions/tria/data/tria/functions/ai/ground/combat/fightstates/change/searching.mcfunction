@@ -3,7 +3,7 @@
 
 # Generic changes
 tag @e[scores={NewFightState=1}] add SearchBullet
-scoreboard players set @e[scores={NewFightState=1}] TestFrequency 10
+scoreboard players set @e[scores={NewFightState=1}] TestFrequency 5
 tag @e[scores={NewFightState=1}] remove FollowPlayer
 tag @e[scores={NewFightState=1}] remove BasicMoving
 tag @e[scores={NewFightState=1}] remove LinearMoving

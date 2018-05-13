@@ -19,6 +19,10 @@ execute if entity @e[tag=VisTest] run function tria:ai/ground/combat/vistest/mai
 execute if entity @e[tag=SafeZoneReload] run function tria:ai/ground/combat/tools/safezonereload
 execute if entity @e[tag=ExitSafeZone] run function tria:ai/ground/combat/tools/exitsafezone
 
+# Melee kills
+execute as @e[tag=AIFighting,scores={Team=-1}] at @s store result score @s Var1 run data get entity @e[tag=AIHitbox,distance=..2,limit=1,sort=nearest] Health 10
+scoreboard players set @e[tag=AIFighting,scores={Var1=..999,Team=-1}] Health 0
+
 # Runs the actions of a given fight state if it finds entities on it
 execute if entity @e[scores={FightState=1}] run function tria:ai/ground/combat/fightstates/searching
 execute if entity @e[scores={FightState=2}] run function tria:ai/ground/combat/fightstates/waiting
@@ -41,6 +45,9 @@ execute if entity @e[tag=Dead] run function tria:ai/ground/combat/death/dead
 execute as @e[tag=FightWithPlayer,scores={FightState=1..2}] at @s unless entity @a[scores={ID=1..4},distance=..9] run function tria:ai/ground/combat/tools/gotoplayer
 execute as @e[tag=FightWithPlayer,scores={FightState=3,1stCdShoot=40..}] at @s unless entity @a[scores={ID=1..4},distance=..9] run function tria:ai/ground/combat/tools/gotoplayer
 
+# Unimportant AI death
+execute as @e[tag=AIFighting,tag=!MainAI,scores={Health=..0}] at @s run function tria:ai/ground/combat/tools/kill
+
 # ------------------------------------------------
 # How to use it:
 
@@ -62,7 +69,7 @@ execute as @e[tag=FightWithPlayer,scores={FightState=3,1stCdShoot=40..}] at @s u
 # SB = SearchBullets
 # TF = TestFrequency
 
-# Searching: SB, TF = 10, after 4 unsuccessful tests: goes to 2
+# Searching: SB, TF = 5, after 8 unsuccessful tests: goes to 2
 # Waiting: SB, TF = 20
 # Shooting: SB, TF = -1, shoots
 # Moving: SB, TF = 5, moves

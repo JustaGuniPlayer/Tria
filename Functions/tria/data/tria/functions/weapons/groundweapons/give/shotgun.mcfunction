@@ -5,7 +5,7 @@
 scoreboard players set @s 1stWeapon 2
 
 # Firerate and reload time
-scoreboard players set @s 1stFirerate 30
+scoreboard players set @s 1stFirerate 15
 scoreboard players set @s 1stReloadTime 100
 
 # Loader Size

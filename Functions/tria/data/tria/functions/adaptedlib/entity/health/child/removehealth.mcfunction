@@ -17,3 +17,5 @@ effect give @s[scores={Var1=-11..-6}] instant_damage 1 0 true
 #6 coeurs
 effect give @s[scores={Var1=..-12}] instant_damage 1 1 true
 
+# Natural Regeneration Time
+scoreboard players set @s NatRegenTime 100

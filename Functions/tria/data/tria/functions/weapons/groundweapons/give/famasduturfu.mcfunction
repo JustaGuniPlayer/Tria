@@ -13,7 +13,7 @@ scoreboard players set @s 1stLoadCapacity 25
 
 # Bullets Damages (20 = one heart)
 scoreboard players set @s 1stWeaponDamage 50
-scoreboard players set @s 1stHeadDamage 110
+scoreboard players set @s 1stHeadDamage 90
 
 # Unaccuracy of the weapon. The higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Unaccuracy degrees)
 scoreboard players set @s 1stUnaccuracy 15

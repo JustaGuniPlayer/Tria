@@ -12,8 +12,8 @@ execute if entity @e[scores={NewFightState=5}] run function tria:ai/ground/comba
 execute if entity @e[scores={NewFightState=6}] run function tria:ai/ground/combat/fightstates/change/reviving
 execute if entity @e[scores={NewFightState=7}] run function tria:ai/ground/combat/fightstates/change/dead
 
-# Arms animation
-execute as @e[scores={NewFightState=1..}] run data merge entity @s {Pose:{RightArm:[0f,0f,0f],LeftArm:[0f,0f,0f]}}
+# Animations
+execute as @e[scores={NewFightState=1..}] unless entity @s[scores={NewFightState=3}] run data merge entity @s {Pose:{RightArm:[0f,0f,0f],LeftArm:[0f,0f,0f],RightLeg:[0f,0f,0f],LeftLeg:[0f,0f,0f]}}
 
 # Leaves the safe zone
 tag @e[scores={NewFightState=1..},tag=InSafeZone] add ExitSafeZone

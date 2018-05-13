@@ -9,3 +9,6 @@ tag @e[scores={NewFightState=6}] remove BasicMoving
 tag @e[scores={NewFightState=6}] remove LinearMoving
 tag @e[scores={NewFightState=6}] remove DontStopBM
 tag @e[scores={NewFightState=6}] add CanBeShot
+
+# Specific changes
+scoreboard players set @e[scores={NewFightState=6}] gestureTime 0
