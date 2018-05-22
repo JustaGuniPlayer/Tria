@@ -8,6 +8,8 @@ tag @s add LockWeapons
 tag @s remove CanBeShot
 tag @s remove Health0
 execute as @s at @s run playsound minecraft:entity.player.hurt ambient @s
+effect give @s blindness 1000 0 true
+effect give @s weakness 1000 255 true
 
 # Summons the target
 execute at @s positioned ~ ~2 ~ run function tria:ai/ground/movement/basic/placetarget

@@ -4,8 +4,7 @@
 # Also used for the player
 
 #Blocks any movement
-execute as @e[tag=ReviveTarget] at @s positioned ~ ~-2 ~ run tp @e[tag=Dead,distance=..1,limit=1,sort=nearest] ~ ~ ~
-effect give @a[tag=Dead] blindness 5 0 true
+execute as @e[tag=ReviveTarget] at @s positioned ~ ~-2 ~ run tp @a[tag=Dead,distance=..1,limit=1,sort=nearest] ~ ~ ~
 
 #Time to revive
 execute as @e[scores={ID=1..4},tag=!Dead] at @s unless entity @s[scores={FightState=1..5}] run scoreboard players add @e[tag=Dead,distance=..3.5,limit=1,sort=nearest] ReviveTime 2

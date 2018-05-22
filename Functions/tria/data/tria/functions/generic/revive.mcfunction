@@ -6,6 +6,7 @@ tag @s remove Dead
 tag @s remove LockWeapons
 tag @s add CanBeShot
 effect clear @s blindness
+effect clear @s weakness
 
 # Kills the villager
 execute at @s positioned ~ ~0.8 ~ run scoreboard players set @e[tag=ReviveTarget,distance=..1,limit=1,sort=nearest] CanBeAlive 0

@@ -7,3 +7,5 @@ execute as @e[tag=Bullet] at @s run scoreboard players set @e[scores={FightState
 # Switches to the Shooting Fight State if it has a target
 scoreboard players set @e[scores={FightState=2,TargetID=1..}] NewFightState 3
 
+# If an ally unimportant AI is in this fight state, it will move towards the nearest movement target
+execute if entity @e[tag=BMVillager,tag=!ReviveTarget] as @e[tag=AIFighting,scores={Team=1,FightState=2}] run function tria:ai/ground/combat/fightstates/waiting-move

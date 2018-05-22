@@ -9,6 +9,7 @@ data merge entity @s {NoGravity:1}
 scoreboard players set @s ReviveTime 0
 scoreboard players set @s Health 400
 scoreboard players set @s SRmoves 0
+scoreboard players set @s Damage 0
 scoreboard players set @s gestureTime 0
 tag @s add Dead
 tag @s remove CanBeShot
