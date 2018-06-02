@@ -1,0 +1,3 @@
+# Shorans structures
+
+Les Shorans ont un niveau technologique sans égal. Ils maitrisent la gravité, les dimensions physiques et sont sur le point de maitriser le temps. Les contraintes technologiques ne préoccupant plus cette espèce depuis longtemps, leur intérêt est énormément porté sur l'aspect estétique des choses. Ainsi, leurs structures fines décrivent un nombre important de courbes et levitent souvent de sorte a montrer qu'ils aiment défier les lois physiques.
