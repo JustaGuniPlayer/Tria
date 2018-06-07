@@ -9,6 +9,3 @@ tag @e[scores={NewFightState=5}] add BasicMoving
 tag @e[scores={NewFightState=5}] remove LinearMoving
 tag @e[scores={NewFightState=5}] add DontStopBM
 tag @e[scores={NewFightState=5}] add CanBeShot
-
-# Specific changes
-tag @e[scores={NewFightState=5}] add Timer2s

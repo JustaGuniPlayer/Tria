@@ -5,5 +5,8 @@
 scoreboard players set @e[scores={FightState=4,TargetID=1..}] NewFightState 3
 
 # Switches to the Searching Fight State if it stops moving
-scoreboard players set @e[scores={FightState=4,Walking=1..}] Timer2s 1
-scoreboard players set @e[scores={FightState=4,Timer2s=40}] NewFightState 1
+scoreboard players add @e[scores={FightState=4}] 1stCdShoot 1
+scoreboard players set @e[scores={FightState=4,Walking=1..}] 1stCdShoot 1
+scoreboard players set @e[scores={FightState=4,1stCdShoot=60..}] NewFightState 1
+
+# 1stCdShoot is used as a timer to reduce the number of ojectives (an entity can not be moving and shooting at the same time)

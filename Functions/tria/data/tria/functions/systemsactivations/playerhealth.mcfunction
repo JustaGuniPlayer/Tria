@@ -1,3 +1,3 @@
 
 function tria:adaptedlib/entity/health/sethealth
-function tria:generic/naturalregen
+execute if entity @e[tag=Data,scores={Timer1s=1}] run function tria:generic/naturalregen

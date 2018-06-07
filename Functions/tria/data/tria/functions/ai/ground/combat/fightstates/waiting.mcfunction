@@ -8,4 +8,7 @@ execute as @e[tag=Bullet] at @s run scoreboard players set @e[scores={FightState
 scoreboard players set @e[scores={FightState=2,TargetID=1..}] NewFightState 3
 
 # If an ally unimportant AI is in this fight state, it will move towards the nearest movement target
-execute if entity @e[tag=BMVillager,tag=!ReviveTarget] as @e[tag=AIFighting,scores={Team=1,FightState=2}] run function tria:ai/ground/combat/fightstates/waiting-move
+execute at @e[tag=BMVillager,tag=!ReviveTarget,limit=1,sort=random] as @e[tag=AIFighting,tag=!FightWithPlayer,scores={Team=1,FightState=2},distance=3..] run function tria:ai/ground/combat/fightstates/waiting-move
+
+# Makes a random movement every 2 seconds 
+scoreboard players set @e[scores={FightState=2,TFclock=1}] SRmoves 1

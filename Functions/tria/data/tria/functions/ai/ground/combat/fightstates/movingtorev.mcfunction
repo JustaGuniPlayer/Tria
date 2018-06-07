@@ -8,5 +8,6 @@ execute as @e[tag=Dead] at @s run scoreboard players set @e[scores={FightState=5
 scoreboard players set @e[scores={FightState=5,TargetID=1..}] NewFightState 3
 
 # Switches to the Searching Fight State if it stops moving
-scoreboard players set @e[scores={FightState=5,Walking=1..}] Timer2s 1
-scoreboard players set @e[scores={FightState=5,Timer2s=40}] NewFightState 1
+scoreboard players add @e[scores={FightState=5}] 1stCdShoot 1
+scoreboard players set @e[scores={FightState=5,Walking=1..}] 1stCdShoot 1
+scoreboard players set @e[scores={FightState=5,1stCdShoot=60..}] NewFightState 1

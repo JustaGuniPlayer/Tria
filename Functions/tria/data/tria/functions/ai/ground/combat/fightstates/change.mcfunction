@@ -1,8 +1,6 @@
 # AI Combat: Change Fight State
 # Changes the current Fight State
 
-tag @e[scores={NewFightState=1..}] remove Timer2s
-
 # Initialises the new fight state
 execute if entity @e[scores={NewFightState=1}] run function tria:ai/ground/combat/fightstates/change/searching
 execute if entity @e[scores={NewFightState=2}] run function tria:ai/ground/combat/fightstates/change/waiting

@@ -19,9 +19,9 @@ execute if entity @e[tag=VisTest] run function tria:ai/ground/combat/vistest/mai
 execute if entity @e[tag=SafeZoneReload] run function tria:ai/ground/combat/tools/safezonereload
 execute if entity @e[tag=ExitSafeZone] run function tria:ai/ground/combat/tools/exitsafezone
 
-# Melee kills
-execute as @e[tag=AIFighting,scores={Team=-1}] at @s store result score @s Var1 run data get entity @e[tag=AIHitbox,distance=..2,limit=1,sort=nearest] Health 10
-scoreboard players set @e[tag=AIFighting,scores={Var1=..999,Team=-1}] Health 0
+# Melee kills (The HurtByTimestamp tag doesn't increase when the mob is suffocating, but it does when a player hits it)
+execute as @e[tag=AIFighting,scores={Team=-1}] at @s store result score @s Var1 run data get entity @e[tag=AIHitbox,distance=..2,limit=1,sort=nearest] HurtByTimestamp 1
+scoreboard players set @e[tag=AIFighting,scores={Var1=1..,Team=-1}] Health 0
 
 # Runs the actions of a given fight state if it finds entities on it
 execute if entity @e[scores={FightState=1}] run function tria:ai/ground/combat/fightstates/searching

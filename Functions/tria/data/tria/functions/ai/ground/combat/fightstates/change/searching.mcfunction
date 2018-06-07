@@ -12,3 +12,4 @@ tag @e[scores={NewFightState=1}] add CanBeShot
 
 # Specific changes
 scoreboard players set @e[scores={NewFightState=1}] VisTestCount 0
+scoreboard players set @e[scores={NewFightState=1}] 1stCdShoot 0

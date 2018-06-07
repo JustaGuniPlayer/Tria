@@ -66,6 +66,6 @@ execute if entity @a[scores={AnimExpl=1..}] run function tria:generic/explosions
 execute as @e[tag=NoFire] run data merge entity @s {Fire:0}
 
 #Input Detections Reset
-scoreboard players set @e Walking 0
-scoreboard players set @e Drop 0
-scoreboard players set @e UseCarrot 0
+scoreboard players set @a Walking 0
+scoreboard players set @a Drop 0
+scoreboard players set @a UseCarrot 0
