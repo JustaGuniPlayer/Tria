@@ -59,9 +59,9 @@ execute as @e[score=doGesture] store entity @s {Pose:{LeftLeg[0]}} run scoreboar
 execute as @e[score=doGesture] store entity @s {Pose:{LeftLeg[1]}} run scoreboard players get @s LeftLeg1
 execute as @e[score=doGesture] store entity @s {Pose:{LeftLeg[2]}} run scoreboard players get @s LeftLeg2
 
-execute as @e[score=doGesture] store entity @s {Pose:{RightLeg[0]}} run scoreboard players get @s RoghtLeg0
-execute as @e[score=doGesture] store entity @s {Pose:{RightLeg[1]}} run scoreboard players get @s RoghtLeg1
-execute as @e[score=doGesture] store entity @s {Pose:{RightLeg[2]}} run scoreboard players get @s RoghtLeg2
+execute as @e[score=doGesture] store entity @s {Pose:{RightLeg[0]}} run scoreboard players get @s RightLeg0
+execute as @e[score=doGesture] store entity @s {Pose:{RightLeg[1]}} run scoreboard players get @s RightLeg1
+execute as @e[score=doGesture] store entity @s {Pose:{RightLeg[2]}} run scoreboard players get @s RightLeg2
 
 	#reset
 tag @e[tag=doGesture] remove doGesture
