@@ -5,10 +5,21 @@ INFOS:
 	Niveau de la mer: 31.
 	
 
-LISTES DES LAYERS A DEFINIR:
+LAYERS:
+
 	*Forêts;
 	*Plaines;
 	*Plages;
 	*Montagnes;
 	*Neige (en haut des montagnes);
 	*Fonds des océans.
+
+
+A FAIRE/COMPLETER:
+
+	*Bordure de mer à préciser par endroit;
+	*Reliefs marin à préciser par endroit;
+	*Montagnes et reliefs Terre;
+	*Applications des blocks;
+	*Applications des biomes;
+	*Applications des layers.
