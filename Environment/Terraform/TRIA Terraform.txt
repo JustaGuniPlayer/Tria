@@ -1,0 +1,14 @@
+INFOS:	
+	Logiciel: World Painter;
+	Tailles: 6016x6016 blocks, 553 MO;
+	Temps pour traverser à pied: 24 minutes;
+	Niveau de la mer: 31.
+	
+
+LISTES DES LAYERS A DEFINIR:
+	*Forêts;
+	*Plaines;
+	*Plages;
+	*Montagnes;
+	*Neige (en haut des montagnes);
+	*Fonds des océans.
