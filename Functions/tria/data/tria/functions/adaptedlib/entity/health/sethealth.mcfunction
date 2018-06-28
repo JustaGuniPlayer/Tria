@@ -33,8 +33,8 @@ effect clear @a poison
 effect clear @a resistance
 
 tag @a[scores={Health=..9}] add Health0
+gamemode adventure @a[gamemode=spectator,scores={ID=1..4}]
 execute as @a[tag=Health0,nbt={OnGround:1b}] run function tria:generic/die
-scoreboard players set @a[tag=Health0] Health 200
 
 execute as @a run scoreboard players operation @s Var1 = @s Health
 scoreboard players operation @a Var1 /= 10 Constant

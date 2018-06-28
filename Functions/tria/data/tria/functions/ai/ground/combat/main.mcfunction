@@ -30,7 +30,6 @@ execute if entity @e[scores={FightState=3}] run function tria:ai/ground/combat/f
 execute if entity @e[scores={FightState=4}] run function tria:ai/ground/combat/fightstates/moving
 execute if entity @e[scores={FightState=5}] run function tria:ai/ground/combat/fightstates/movingtorev
 execute if entity @e[scores={FightState=6}] run function tria:ai/ground/combat/fightstates/reviving
-# execute if entity @e[scores={FightState=7}] run function tria:ai/ground/combat/fightstates/dead
 
 # Changes an entity's fight state if requested
 execute if entity @e[scores={NewFightState=1..}] run function tria:ai/ground/combat/fightstates/change
@@ -70,7 +69,7 @@ execute as @e[tag=AIFighting,tag=!MainAI,scores={Health=..0}] at @s run function
 # TF = TestFrequency
 
 # Searching: SB, TF = 5, after 8 unsuccessful tests: goes to 2
-# Waiting: SB, TF = 20
+# Waiting: SB, TF = 10
 # Shooting: SB, TF = -1, shoots
 # Moving: SB, TF = 5, moves
 # Moving to Revive: SB, TF = -1, moves towards a wounded ally
@@ -135,6 +134,7 @@ execute as @e[tag=AIFighting,tag=!MainAI,scores={Health=..0}] at @s run function
 #SafeZoneLeft: When an AI searches for a safe zone and finds it on its left, it gets this tag
 #SafeZoneRight: When an AI searches for a safe zone and finds it on its right, it gets this tag
 #InSafeZone: When an AI searches for a safe zone and finds it, it gets this tag
+#Invisible: All entities with this tag become invisible (2 seconds update)
 
 
 

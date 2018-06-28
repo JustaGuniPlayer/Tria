@@ -9,3 +9,6 @@ execute as @e[scores={FightState=1,Team=1},tag=AskedVisTest] at @s run tp @s ~ ~
 
 # Switches to the Shooting Fight State if it has a target
 scoreboard players set @e[scores={FightState=1,TargetID=1..}] NewFightState 3
+
+# LookAround animation
+execute if entity @e[scores={FightState=1,gestureTime=0}] run function tria:ai/ground/combat/tools/lookaround

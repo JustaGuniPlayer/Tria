@@ -2,7 +2,7 @@
 
 # Call this function (in one of the Chapter functions) to activate the AI fight.
 
-execute if entity @e[tag=AIFighting] run function tria:ai/ground/combat/main
+function tria:ai/ground/combat/main
 execute if entity @e[tag=BasicMoving] run function tria:ai/ground/movement/basic/main
 
 execute if entity @e[tag=FollowPlayer] run function tria:ai/ground/movement/followplayer/main

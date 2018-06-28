@@ -4,7 +4,7 @@
 #Author: A~Z
 
 #Code:
-scoreboard players set @e[tag=doGesture, scores={gesturePart=35.., gesture=5}] gesturePart 0
+scoreboard players set @e[tag=doGesture, scores={gesturePart=50.., gesture=5}] gesturePart 0
 
 execute as @e[tag=doGesture, scores={gesturePart=  0..4, gesture=5}] run scoreboard players remove @s Head0 2
 
