@@ -1,0 +1,23 @@
+{
+	"parent": "item/handheld",
+
+	"textures": {
+		"layer0": "items/gold_hoe"
+	},
+
+	"overrides": [
+		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/goldenhoe/golden_hoe"},
+
+		{ "predicate": {"damaged": 0, "damage": 0.03030303030303}, "model": "item/goldenhoe/pipe_side"},
+
+		{ "predicate": {"damaged": 0, "damage": 0.060606060606061}, "model": "item/goldenhoe/pipe_turn_1"},
+
+		{ "predicate": {"damaged": 0, "damage": 0.090909090909091}, "model": "item/goldenhoe/pipe_turn_2"},
+
+		{ "predicate": {"damaged": 0, "damage": 0.121212121212121}, "model": "item/goldenhoe/pipe_wall_1"},
+
+		{ "predicate": {"damaged": 0, "damage": 0.151515151515152}, "model": "item/goldenhoe/pipe_cell_1"}
+	]
+}
+	]
+}

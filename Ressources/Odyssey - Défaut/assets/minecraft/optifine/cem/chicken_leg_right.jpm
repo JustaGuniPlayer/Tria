@@ -1,0 +1,85 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "chicken",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-10.5,0.0,5.5],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-1.0,0.0,1.0,1.0,2.5],
+          "uvDown": [18,14,19,17],
+          "uvUp": [17,14,18,17],
+          "uvNorth": [17,17,18,18],
+          "uvSouth": [21,17,22,18],
+          "uvWest": [18,17,21,18],
+          "uvEast": [14,17,17,18]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-9.0,0.0,5.5],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-1.0,0.0,1.0,1.0,2.5],
+          "uvDown": [24,16,25,19],
+          "uvUp": [23,16,24,19],
+          "uvNorth": [23,19,24,20],
+          "uvSouth": [27,19,28,20],
+          "uvWest": [24,19,27,20],
+          "uvEast": [20,19,23,20]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-9.5,0.0,8.0],
+      "boxes": [
+        {
+          "coordinates": [-1.5,-1.0,0.0,1.5,1.0,1.5],
+          "uvDown": [32,17,33,19],
+          "uvUp": [31,17,32,19],
+          "uvNorth": [31,19,32,20],
+          "uvSouth": [34,19,35,20],
+          "uvWest": [32,19,34,20],
+          "uvEast": [29,19,31,20]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-9.0,-5.0,7.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.5,-3.5,0.0,2.5,3.5,4.0],
+          "uvDown": [7,13,10,17],
+          "uvUp": [4,13,7,17],
+          "uvNorth": [4,17,7,21],
+          "uvSouth": [11,17,14,21],
+          "uvWest": [7,17,11,21],
+          "uvEast": [0,17,4,21]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-9.5,-0.5,7.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-1.5,-5.0,0.0,1.5,5.0,1.0],
+          "uvDown": [17,19,18,20],
+          "uvUp": [16,19,17,20],
+          "uvNorth": [16,20,17,25],
+          "uvSouth": [18,20,19,25],
+          "uvWest": [17,20,18,25],
+          "uvEast": [15,20,16,25]
+        }
+      ]
+    }
+  ]
+}

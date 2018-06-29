@@ -1,0 +1,89 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "chicken",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-5.0,-7.5,4.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-5.0,-4.5,0.0,5.0,4.5,8.0],
+          "uvDown": [13,0,18,8],
+          "uvUp": [8,0,13,8],
+          "uvNorth": [8,8,12,13],
+          "uvSouth": [21,8,25,13],
+          "uvWest": [13,8,21,13],
+          "uvEast": [0,8,8,13]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-6.0,-8.076119,11.8826818],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-1.0,0.0,3.0,1.0,3.5],
+          "uvDown": [50,1,53,5],
+          "uvUp": [47,1,50,5],
+          "uvNorth": [47,5,50,6],
+          "uvSouth": [54,5,57,6],
+          "uvWest": [50,5,54,6],
+          "uvEast": [43,5,47,6]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-6.5,-9.999999,14.1969538],
+      "rotate": [315.0,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-2.0,0.0,2.0,2.0,1.0],
+          "uvDown": [58,1,60,2],
+          "uvUp": [56,1,58,2],
+          "uvNorth": [56,2,58,4],
+          "uvSouth": [59,2,61,4],
+          "uvWest": [58,2,59,4],
+          "uvEast": [55,2,56,4]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-7.5,-3.0,4.5],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-4.5,0.0,0.001,4.5,5.0],
+          "uvWest": [34,10,42,17],
+          "uvEast": [42,16,50,23]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-6.5,-4.25,4.5],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-4.5,0.0,0.001,4.5,5.0],
+          "uvWest": [34,10,42,17],
+          "uvEast": [42,16,50,23]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-8.5,-4.25,4.5],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-4.5,0.0,0.001,4.5,5.0],
+          "uvWest": [34,10,42,17],
+          "uvEast": [42,16,50,23]
+        }
+      ]
+    }
+  ]
+}

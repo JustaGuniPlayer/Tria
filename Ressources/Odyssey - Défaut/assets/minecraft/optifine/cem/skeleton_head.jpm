@@ -1,0 +1,158 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.8.438 Beta",
+  "texture": "skeleton",
+  "textureSize": [64,64],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [-6.0,-25.0,12.5],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-1.5,0.0,4.0,1.5,0.5],
+          "uvDown": [22,16,26,17],
+          "uvUp": [18,16,22,17],
+          "uvNorth": [18,17,22,19],
+          "uvSouth": [23,17,27,19],
+          "uvWest": [17,17,18,19],
+          "uvEast": [22,17,23,19]
+        }
+      ]
+    },
+    {
+      "id": "e1_Box1",
+      "translate": [-6.0,-27.0,12.5],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-1.5,0.0,4.0,1.5,0.5],
+          "uvDown": [24,3,28,4],
+          "uvUp": [20,3,24,4],
+          "uvNorth": [20,4,24,6],
+          "uvSouth": [25,4,29,6],
+          "uvWest": [19,4,20,6],
+          "uvEast": [24,4,25,6]
+        }
+      ]
+    },
+    {
+      "id": "e2_Box1",
+      "translate": [-8.125,-26.5,12.875],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-1.5,0.0,0.5,1.5,0.5],
+          "uvDown": [3,1,4,2],
+          "uvUp": [2,1,3,2],
+          "uvNorth": [2,2,3,5],
+          "uvSouth": [4,2,5,5],
+          "uvWest": [1,2,2,5],
+          "uvEast": [3,2,4,5]
+        }
+      ]
+    },
+    {
+      "id": "e3_Box1",
+      "translate": [-6.5,-25.0,6.5],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-2.0,0.0,3.0,2.0,6.0],
+          "uvDown": [41,51,44,57],
+          "uvUp": [38,51,41,57],
+          "uvNorth": [38,57,41,59],
+          "uvSouth": [47,57,50,59],
+          "uvWest": [32,57,38,59],
+          "uvEast": [41,57,47,59]
+        }
+      ]
+    },
+    {
+      "id": "e4_Box1",
+      "translate": [-6.5,-25.5,13.0],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-1.5,0.0,0.5,1.5,0.5],
+          "uvDown": [3,1,4,2],
+          "uvUp": [2,1,3,2],
+          "uvNorth": [2,2,3,5],
+          "uvSouth": [4,2,5,5],
+          "uvWest": [1,2,2,5],
+          "uvEast": [3,2,4,5]
+        }
+      ]
+    },
+    {
+      "id": "e5_Box1",
+      "translate": [-8.875,-25.5,13.0],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-1.5,0.0,0.5,1.5,0.5],
+          "uvDown": [3,1,4,2],
+          "uvUp": [2,1,3,2],
+          "uvNorth": [2,2,3,5],
+          "uvSouth": [4,2,5,5],
+          "uvWest": [1,2,2,5],
+          "uvEast": [3,2,4,5]
+        }
+      ]
+    },
+    {
+      "id": "e6_Box1",
+      "translate": [-6.125,-26.5,12.875],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-1.5,0.0,0.5,1.5,0.5],
+          "uvDown": [3,1,4,2],
+          "uvUp": [2,1,3,2],
+          "uvNorth": [2,2,3,5],
+          "uvSouth": [4,2,5,5],
+          "uvWest": [1,2,2,5],
+          "uvEast": [3,2,4,5]
+        }
+      ]
+    },
+    {
+      "id": "e7_Box1",
+      "translate": [-7.25,-26.5,12.875],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-1.5,0.0,0.5,1.5,0.5],
+          "uvDown": [3,1,4,2],
+          "uvUp": [2,1,3,2],
+          "uvNorth": [2,2,3,5],
+          "uvSouth": [4,2,5,5],
+          "uvWest": [1,2,2,5],
+          "uvEast": [3,2,4,5]
+        }
+      ]
+    },
+    {
+      "id": "e8_Box1",
+      "translate": [-5.0,-27.0,6.5],
+      "boxes": [
+        {
+          "coordinates": [-6.0,-5.0,0.0,6.0,5.0,6.0],
+          "uvDown": [12,0,18,6],
+          "uvUp": [6,0,12,6],
+          "uvNorth": [6,6,12,11],
+          "uvSouth": [18,6,24,11],
+          "uvWest": [0,6,6,11],
+          "uvEast": [12,6,18,11]
+        }
+      ]
+    },
+    {
+      "id": "e9_Box1",
+      "translate": [-9.125,-26.375,12.75],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-1.5,0.0,0.5,1.5,0.5],
+          "uvDown": [3,1,4,2],
+          "uvUp": [2,1,3,2],
+          "uvNorth": [2,2,3,5],
+          "uvSouth": [4,2,5,5],
+          "uvWest": [1,2,2,5],
+          "uvEast": [3,2,4,5]
+        }
+      ]
+    }
+  ]
+}

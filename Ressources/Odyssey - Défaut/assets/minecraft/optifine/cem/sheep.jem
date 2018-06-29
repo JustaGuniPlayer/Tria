@@ -1,0 +1,44 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [128,64],
+  "shadowSize": 0.7,
+  "models": 
+  [
+    {
+      "model": "sheep_body.jpm",
+      "part": "body", 
+      "translate": [8, -10, -19],
+      "rotate": [-90, 0, 0]
+    },
+    {
+      "model": "sheep_head.jpm",
+      "part": "head", 
+      "translate": [8, 18, 0],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "sheep_leg_bottom_right.jpm",
+      "part": "leg1", 
+      "translate": [11, 12, -14],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "sheep_leg_bottom_left.jpm",
+      "part": "leg2", 
+      "translate": [5, 12, -14],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "sheep_front_right.jpm",
+      "part": "leg3", 
+      "translate": [11, 12, -2],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "sheep_front_left.jpm",
+      "part": "leg4", 
+      "translate": [5, 12, -3],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

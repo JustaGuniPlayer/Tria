@@ -1,0 +1,23 @@
+{
+	"__comment": "Designed by Galingueur with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+	"textures": {
+		"particle": "blocks/m_fence_birch",
+		"texture": "blocks/m_fence_birch",
+		"texture1": "blocks/m_fence_birch_topdown"
+	},
+	"elements": [
+		{
+			"__comment": "Cube25",
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 16, 10 ],
+			"faces": {
+				"down": { "uv": [ 6, 12, 10, 16 ], "texture": "#texture1" },
+				"up": { "uv": [ 6, 12, 10, 16 ], "texture": "#texture1", "rotation": 90 },
+				"north": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

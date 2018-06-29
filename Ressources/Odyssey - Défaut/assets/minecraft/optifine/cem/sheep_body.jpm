@@ -1,0 +1,87 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "sheep",
+  "textureSize": [128,64],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-7.0,-14.0,22.125],
+      "rotate": [45.0,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-3.5,0.0,2.0,3.5,1.5],
+          "uvDown": [40,26,42,28],
+          "uvUp": [38,26,40,28],
+          "uvNorth": [38,28,40,32],
+          "uvSouth": [42,28,44,32],
+          "uvWest": [36,28,38,32],
+          "uvEast": [40,28,42,32]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-5.0,-9.5,16.0],
+      "boxes": [
+        {
+          "coordinates": [-6.0,-6.5,0.0,6.0,6.5,4.0],
+          "uvDown": [10,25,17,28],
+          "uvUp": [3,25,10,28],
+          "uvNorth": [3,28,10,35],
+          "uvSouth": [13,28,20,35],
+          "uvWest": [10,28,13,35],
+          "uvEast": [0,28,3,35]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-6.0,-11.5,20.0],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-5.0,0.0,4.0,5.0,3.0],
+          "uvDown": [28,25,32,28],
+          "uvUp": [24,25,28,28],
+          "uvNorth": [24,28,28,33],
+          "uvSouth": [31,28,35,33],
+          "uvWest": [21,28,24,33],
+          "uvEast": [29,28,32,33]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-4.625,-11.25,1.375],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-6.5,-1.5,0.0,6.5,1.5,13.0],
+          "uvDown": [72,0,79,16],
+          "uvUp": [65,0,72,16],
+          "uvNorth": [65,16,72,18],
+          "uvSouth": [88,16,95,18],
+          "uvWest": [71,16,87,18],
+          "uvEast": [49,16,65,18]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-3.5,-13.0,1.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-9.0,-9.5,0.0,9.0,9.5,15.0],
+          "uvDown": [24,0,32,16],
+          "uvUp": [16,0,24,16],
+          "uvNorth": [16,16,24,24],
+          "uvSouth": [40,16,48,24],
+          "uvWest": [0,16,16,24],
+          "uvEast": [24,16,40,24]
+        }
+      ]
+    }
+  ]
+}

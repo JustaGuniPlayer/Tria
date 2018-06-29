@@ -1,0 +1,39 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "squid",
+  "textureSize": [128,64],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-7.5,-6.5,-9.5],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-1.0,0.0,1.0,1.0,9.5],
+          "uvDown": [98,0,99,10],
+          "uvUp": [98,0,99,10],
+          "uvNorth": [98,10,99,11],
+          "uvSouth": [109,10,110,11],
+          "uvWest": [88,10,98,11],
+          "uvEast": [99,10,109,11]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-7.75,-4.25,-15.25],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-0.5,0.0,0.5,0.5,6.5],
+          "uvDown": [100,39,101,44],
+          "uvUp": [99,39,100,44],
+          "uvNorth": [99,44,100,45],
+          "uvSouth": [106,44,107,45],
+          "uvWest": [93,44,99,45],
+          "uvEast": [100,44,106,45]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [32,64],
+  "shadowSize": 1.5,
+  "models": 
+  [
+    {
+      "model": "spider_body.jpm",
+      "part": "body", 
+      "translate": [-4, -4, -4],
+      "rotate": [0, 180, 0],
+	  "scale": "1.1"
+    },
+    {
+      "model": "chicken_empty_chin.jpm",
+      "part": "head", 
+      "translate": [0, 25, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "chicken_empty_chin.jpm",
+      "part": "neck", 
+      "translate": [0, 25, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "spider_leg_3.jpm",
+      "part": "leg1", 
+      "rotate": [-15, -70, 40],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.8"
+			}
+		]
+    },
+    {
+      "model": "spider_leg_3.jpm",
+      "part": "leg2", 
+      "translate": [0, 0, 0],
+      "rotate": [-15, 70, -40],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.8"
+			}
+		]
+    },
+    {
+      "model": "spider_leg.jpm",
+      "part": "leg3", 
+      "translate": [0, 0, 0],
+      "rotate": [0, -90, 30],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.8"
+			}
+		]
+    },
+    {
+      "model": "spider_leg.jpm",
+      "part": "leg5", 
+      "translate": [0, 0, 0],
+      "rotate": [-15, -90, 50],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.9",
+				"part.ox":"-0.1",
+				"part.oz":"-0.3"
+			}
+		]
+    },
+    {
+      "model": "spider_leg_front.jpm",
+      "part": "leg7", 
+      "rotate": [-70, -120, 95],
+	  "animations":
+		[
+			{
+				"part.oy":"-1.1",
+				"part.ox":"0.14",
+				"part.oz":"-0.4"
+			}
+		]
+    },
+    {
+      "model": "spider_leg.jpm",
+      "part": "leg4", 
+      "translate": [0, 0, 0],
+      "rotate": [0, 90, -30],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.8"
+			}
+		]
+    },
+    {
+      "model": "spider_leg.jpm",
+      "part": "leg6", 
+      "translate": [0, 0, 0],
+      "rotate": [-15, 90, -50],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.9",
+				"part.ox":"0.1",
+				"part.oz":"-0.3"
+			}
+		]
+    },
+    {
+      "model": "spider_leg_front.jpm",
+      "part": "leg8", 
+      "rotate": [-70, 120, -95],
+	  "animations":
+		[
+			{
+				"part.oy":"-1.1",
+				"part.ox":"-0.2",
+				"part.oz":"-0.4"
+			}
+		]
+    }
+  ]
+}

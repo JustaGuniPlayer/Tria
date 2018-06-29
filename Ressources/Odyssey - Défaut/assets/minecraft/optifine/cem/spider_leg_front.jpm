@@ -1,0 +1,71 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.8.438 Beta",
+  "texture": "spider",
+  "textureSize": [128,64],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [1.25,1.5,0.5],
+      "rotate": [22.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.5,-3.0,0.0,2.5,3.0,17.5],
+          "uvDown": [21,26,24,44],
+          "uvUp": [18,26,21,44],
+          "uvNorth": [18,44,21,47],
+          "uvSouth": [39,44,42,47],
+          "uvWest": [0,44,18,47],
+          "uvEast": [21,44,39,47]
+        }
+      ]
+    },
+    {
+      "id": "e1_Box1",
+      "translate": [0.75,2.75093079,23.5857849],
+      "rotate": [45.0,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-1.5,-13.0,0.0,1.5,13.0,2.0],
+          "uvDown": [13,26,15,28],
+          "uvUp": [11,26,13,28],
+          "uvNorth": [11,28,13,41],
+          "uvSouth": [15,28,17,41],
+          "uvWest": [9,28,11,41],
+          "uvEast": [13,28,15,41]
+        }
+      ]
+    },
+    {
+      "id": "e2_Box1",
+      "translate": [0.5,14.0131,23.3468227],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-12.5,0.0,1.0,12.5,1.5],
+          "uvDown": [8,0,10,2],
+          "uvUp": [6,0,8,2],
+          "uvNorth": [6,2,8,15],
+          "uvSouth": [10,2,12,15],
+          "uvWest": [4,2,6,15],
+          "uvEast": [8,2,10,15]
+        }
+      ]
+    },
+    {
+      "id": "e3_Box1",
+      "translate": [0.25,26.442131,17.9776325],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-0.5,-14.0,0.0,0.5,14.0,1.0],
+          "uvDown": [6,26,7,27],
+          "uvUp": [5,26,6,27],
+          "uvNorth": [5,27,6,41],
+          "uvSouth": [7,27,8,41],
+          "uvWest": [4,27,5,41],
+          "uvEast": [6,27,7,41]
+        }
+      ]
+    }
+  ]
+}

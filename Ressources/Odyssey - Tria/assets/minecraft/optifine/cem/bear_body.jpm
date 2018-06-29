@@ -1,0 +1,83 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.8.438 Beta",
+  "texture": "bear",
+  "textureSize": [128,128],
+  "submodels": [
+    {
+      "id": "e0_Cube1",
+      "translate": [4.5,-10.5,-3.5],
+      "boxes": [
+        {
+          "coordinates": [-21.0,-19.5,0.0,21.0,19.5,15.75],
+          "uvDown": [91,0,112,16],
+          "uvUp": [70,0,91,16],
+          "uvNorth": [70,16,91,36],
+          "uvSouth": [107,16,128,36],
+          "uvWest": [54,16,70,36],
+          "uvEast": [91,16,107,36]
+        }
+      ]
+    },
+    {
+      "id": "e1_Cube1",
+      "translate": [3.0,-12.0,12.25],
+      "boxes": [
+        {
+          "coordinates": [-18.0,-15.75,0.0,18.0,15.75,18.0],
+          "uvDown": [92,36,110,54],
+          "uvUp": [74,36,92,54],
+          "uvNorth": [74,54,92,72],
+          "uvSouth": [110,54,128,72],
+          "uvWest": [56,54,74,72],
+          "uvEast": [92,54,110,72]
+        }
+      ]
+    },
+    {
+      "id": "e2_Cube1",
+      "translate": [-5.0,-27.5,12.0],
+      "boxes": [
+        {
+          "coordinates": [-3.5,-3.0,0.0,3.5,3.0,11.0],
+          "uvDown": [60,41,63,51],
+          "uvUp": [57,41,60,51],
+          "uvNorth": [57,51,60,54],
+          "uvSouth": [69,51,73,54],
+          "uvWest": [47,51,57,54],
+          "uvEast": [60,51,70,54]
+        }
+      ]
+    },
+    {
+      "id": "e3_Cube1",
+      "translate": [-5.0,-30.0,-3.5],
+      "boxes": [
+        {
+          "coordinates": [-3.5,-1.5,0.0,3.5,1.5,16.0],
+          "uvDown": [37,39,40,55],
+          "uvUp": [34,39,37,55],
+          "uvNorth": [34,55,37,56],
+          "uvSouth": [53,55,56,56],
+          "uvWest": [18,55,34,56],
+          "uvEast": [37,55,53,56]
+        }
+      ]
+    },
+    {
+      "id": "e4_Cube1",
+      "translate": [-6.0,-27.75,22.75],
+      "boxes": [
+        {
+          "coordinates": [-1.5,-2.25,0.0,1.5,2.25,6.75],
+          "uvDown": [48,44,50,49],
+          "uvUp": [46,44,48,49],
+          "uvNorth": [46,49,48,50],
+          "uvSouth": [53,49,55,50],
+          "uvWest": [41,49,46,50],
+          "uvEast": [48,49,53,50]
+        }
+      ]
+    }
+  ]
+}

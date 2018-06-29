@@ -1,0 +1,63 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [128,128],
+  "shadowSize": 0.6,
+  "models": 
+  [
+    {
+      "model": "ocelot_body.jpm",
+      "part": "body", 
+      "translate": [8, 4, -12],
+      "rotate": [-90, 0, 0]
+    },
+	{
+      "model": "ocelot_head.jpm",
+      "part": "head",
+      "translate": [8, 8, 3],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "chicken_empty_chin.jpm",
+      "part": "tail2", 
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "ocelot_tail.jpm",
+      "part": "tail", 
+      "translate": [8, -6, -15],
+      "rotate": [-50, 0, 0]
+    },
+    {
+      "model": "ocelot_tail2.jpm",
+      "part": "tail",
+      "attach": "true",		
+      "translate": [8, -8, -13.5],
+      "rotate": [-55, 0, 0]
+    },
+	    {
+      "model": "ocelot_leg_back_right.jpm",
+      "part": "back_right_leg", 
+      "translate": [8, 6, -11],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "ocelot_leg_back_left.jpm",
+      "part": "back_left_leg", 
+      "translate": [8, 6, -11],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "ocelot_leg_front_right.jpm",
+      "part": "front_right_leg", 
+      "translate": [8, 10, -1],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "ocelot_leg_front_left.jpm",
+      "part": "front_left_leg", 
+      "translate": [8, 10, -1],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}
