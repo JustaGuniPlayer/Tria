@@ -1,0 +1,88 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "pig",
+  "textureSize": [128,64],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-6.5,-6.0,28.5],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-3.5,0.0,3.0,3.5,2.5],
+          "uvDown": [6,110,9,113],
+          "uvUp": [3,110,6,113],
+          "uvNorth": [3,113,6,117],
+          "uvSouth": [9,113,12,117],
+          "uvWest": [6,113,9,117],
+          "uvEast": [0,113,3,117]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-3.0,-7.5,15.5],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-10.0,-8.0,0.0,10.0,8.0,5.0],
+          "uvDown": [15,95,25,100],
+          "uvUp": [5,95,15,100],
+          "uvNorth": [5,100,15,108],
+          "uvSouth": [20,100,30,108],
+          "uvWest": [15,100,20,108],
+          "uvEast": [0,100,5,108]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-4.0,-6.5,20.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-8.0,-7.0,0.0,8.0,7.0,3.5],
+          "uvDown": [43,97,51,101],
+          "uvUp": [35,97,43,101],
+          "uvNorth": [35,101,43,108],
+          "uvSouth": [47,101,55,108],
+          "uvWest": [43,101,47,108],
+          "uvEast": [31,101,35,108]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-5.0,-6.0,23.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-6.0,-6.0,0.0,6.0,6.0,3.0],
+          "uvDown": [9,64,15,67],
+          "uvUp": [3,64,9,67],
+          "uvNorth": [3,67,9,73],
+          "uvSouth": [12,67,18,73],
+          "uvWest": [9,67,12,73],
+          "uvEast": [0,67,3,73]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-6.0,-5.5,26.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-5.0,0.0,4.0,5.0,2.5],
+          "uvDown": [7,73,11,76],
+          "uvUp": [3,73,7,76],
+          "uvNorth": [3,76,7,81],
+          "uvSouth": [10,76,14,81],
+          "uvWest": [7,76,10,81],
+          "uvEast": [0,76,3,81]
+        }
+      ]
+    }
+  ]
+}

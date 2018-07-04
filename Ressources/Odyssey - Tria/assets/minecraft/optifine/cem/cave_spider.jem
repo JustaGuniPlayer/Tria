@@ -1,0 +1,127 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [32,64],
+  "shadowSize": 0.2,
+  "models": 
+  [
+    {
+      "model": "cave_spider_body.jpm",
+      "part": "body", 
+      "translate": [8, 0, -17],
+      "rotate": [-30, 0, 0]
+    },
+    {
+      "model": "cave_spider_head.jpm",
+      "part": "head", 
+      "translate": [8, 7, 13],
+      "rotate": [0, -90, 0]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg1", 
+      "translate": [0, 0, 0],
+      "rotate": [120, -130, -90],
+	  "animations":
+		[
+			{
+				"part.ox":"0.4",
+				"part.oz":"0.2"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg2", 
+      "translate": [0, 0, 0],
+      "rotate": [120, 130, 90],
+	  "animations":
+		[
+			{
+				"part.ox":"0",
+				"part.oz":"-0.2"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg3", 
+      "translate": [0, 0, 0],
+      "rotate": [80, -105, -50],
+	  "animations":
+		[
+			{
+				"part.ox":"0.2",
+				"part.oz":"0.3"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg5", 
+      "translate": [0, 0, 0],
+      "rotate": [-15, -100, 50],
+	  "animations":
+		[
+			{
+				"part.ox":"-0.1",
+				"part.oz":"0.3",
+				"part.oy":"0.1"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg7", 
+      "translate": [0, 0, 0],
+      "rotate": [-35, -120, 50],
+	  "animations":
+		[
+			{
+				"part.ox":"-0.15",
+				"part.oz":"0.3"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg4", 
+      "translate": [0, 0, 0],
+      "rotate": [80, 105, 50],
+	  "animations":
+		[
+			{
+				"part.ox":"0",
+				"part.oz":"-0.2"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg6", 
+      "translate": [0, 0, 0],
+      "rotate": [-15, 100, -50],
+	  "animations":
+		[
+			{
+				"part.ox":"-0.3",
+				"part.oz":"-0.1",
+				"part.oy":"0"
+			}
+		]
+    },
+    {
+      "model": "cave_spider_leg.jpm",
+      "part": "leg8", 
+      "translate": [0, 0, 0],
+      "rotate": [-35, 120, -50],
+	  "animations":
+		[
+			{
+				"part.ox":"-0.4",
+				"part.oz":"0.1",
+				"part.oy":"-0.2"
+			}
+		]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [128,64],
+  "shadowSize": 0.7,
+  "models": 
+  [
+    {
+      "model": "wolf_body.jpm",
+      "part": "body", 
+      "translate": [8, -9, -10],
+      "rotate": [-90, 0, 0]
+    },
+    {
+      "model": "wolf_head.jpm",
+      "part": "head", 
+      "translate": [9, 10, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "chicken_empty_chin.jpm",
+      "part": "mane", 
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "wolf_tail.jpm",
+      "part": "tail", 
+      "translate": [9, 3, -10.5],
+      "rotate": [-70, 0, 0]
+    },
+    {
+      "model": "wolf_leg_back_right.jpm",
+      "part": "leg1", 
+      "translate": [10.5, 10, -13],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.1",
+				"part.oz":"0"
+			}
+		]	  
+    },
+    {
+      "model": "wolf_leg_back_left.jpm",
+      "part": "leg2", 
+      "translate": [7.5, 10, -13],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.1",
+				"part.oz":"0"
+			}
+		]	  
+    },
+    {
+      "model": "wolf_leg_front_right.jpm",
+      "part": "leg3", 
+      "translate": [10, 12, -3],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.25"
+			}
+		]	  
+    },
+    {
+      "model": "wolf_leg_front_left.jpm",
+      "part": "leg4", 
+      "translate": [8, 12, -3],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.25"
+			}
+		]	  
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [128,128],
+  "shadowSize": 0.3,
+  "models": 
+  [
+    {
+      "model": "sheep_wool_body.jpm",
+      "part": "body", 
+      "translate": [8, -10, -19],
+      "rotate": [-90, 0, 0]
+    },
+    {
+      "model": "sheep_wool_head.jpm",
+      "part": "head", 
+      "translate": [8, 18, 0],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "sheep_wool_leg_bottom_right.jpm",
+      "part": "leg1", 
+      "translate": [11, 12, -14],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "sheep_wool_leg_bottom_left.jpm",
+      "part": "leg2", 
+      "translate": [5, 12, -14],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "sheep_wool_leg_front_right.jpm",
+      "part": "leg3", 
+      "translate": [10.5, 12, -2],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "sheep_wool_leg_front_left.jpm",
+      "part": "leg4", 
+      "translate": [5.5, 12, -3],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

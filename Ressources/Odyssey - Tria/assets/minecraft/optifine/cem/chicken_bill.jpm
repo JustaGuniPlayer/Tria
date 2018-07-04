@@ -1,0 +1,23 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "chicken",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-6.5,-14.0,0.5],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-2.0,0.0,2.0,2.0,3.0],
+          "uvDown": [29,11,31,14],
+          "uvUp": [27,11,29,14],
+          "uvNorth": [27,14,29,16],
+          "uvSouth": [32,14,34,16],
+          "uvWest": [29,14,32,16],
+          "uvEast": [24,14,27,16]
+        }
+      ]
+    }
+  ]
+}

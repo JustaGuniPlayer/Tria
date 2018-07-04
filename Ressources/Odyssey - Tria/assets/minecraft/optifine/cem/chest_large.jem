@@ -1,0 +1,26 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [64,64],
+  "shadowSize": 0.3,
+  "models": 
+  [
+    {
+      "model": "chestlarge_base.jpm",
+      "part": "base", 
+      "translate": [31, 10, -1],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "chestlarge_knob.jpm",
+      "part": "knob", 
+      "translate": [16, 9, -15],
+      "rotate": [0, 0, 0]
+    },
+	{
+      "model": "chestlarge_lid.jpm",
+      "part": "lid",
+      "translate": [31, 9, -15],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

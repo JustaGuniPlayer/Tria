@@ -1,0 +1,77 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [128,64],
+  "shadowSize": 1.7,
+  "models": 
+  [
+    {
+      "model": "bear_body.jpm",
+      "part": "body", 
+      "translate": [8, -27.5, -17],
+      "rotate": [-90, 0, 0]
+    },
+    {
+      "model": "bear_head.jpm",
+      "part": "head", 
+      "translate": [8, 16.5, -14],
+      "rotate": [0, 0, 0]
+    },
+    {
+      "model": "bear_tail.jpm",
+      "part": "body",
+      "attach": "true",  
+      "translate": [8, 5, -17.5],
+      "rotate": [-90, 0, 0]
+    },
+    {
+      "model": "bear_leg_back_right.jpm",
+      "part": "leg1", 
+      "translate": [10, 16, -25],
+	  "animations":
+		[
+			{
+				"part.oz":"0.25",
+				"part.oy":"-0.38"
+			}
+		]
+    },
+    {
+      "model": "bear_leg_back_left.jpm",
+      "part": "leg2", 
+      "translate": [2, 16, -25],
+	  "animations":
+		[
+			{
+				"part.oz":"0.25",
+				"part.oy":"-0.38"
+			}
+		]
+    },
+    {
+      "model": "bear_leg_front_right.jpm",
+      "part": "leg3", 
+      "translate": [1, 16, -5],
+	  "animations":
+		[
+			{
+				"part.oz":"-0.17",
+				"part.ox":"0.5",
+				"part.oy":"-0.38"
+			}
+		]
+    },
+    {
+      "model": "bear_leg_front_left.jpm",
+      "part": "leg4", 
+      "translate": [0, 16, -5],
+	  "animations":
+		[
+			{
+				"part.oz":"-0.17",
+				"part.ox":"0.2",
+				"part.oy":"-0.38"
+			}
+		]
+    }
+  ]
+}

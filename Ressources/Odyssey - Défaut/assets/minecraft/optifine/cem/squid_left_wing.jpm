@@ -1,0 +1,101 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.8.438 Beta",
+  "texture": "squid",
+  "textureSize": [128,64],
+  "submodels": [
+    {
+      "id": "e0_Cube1",
+      "translate": [4.25,2.5,9.0],
+      "boxes": [
+        {
+          "coordinates": [-9.75,-1.0,0.0,9.75,1.0,1.0],
+          "uvDown": [39,2,41,12],
+          "uvUp": [39,2,40,12],
+          "uvNorth": [39,12,40,13],
+          "uvSouth": [50,12,51,13],
+          "uvWest": [29,12,39,13],
+          "uvEast": [40,12,50,13]
+        }
+      ]
+    },
+    {
+      "id": "e1_Cube1",
+      "translate": [-1.25,2.5,17.25],
+      "boxes": [
+        {
+          "coordinates": [-4.5,-1.0,0.0,4.5,1.0,1.0],
+          "uvDown": [47,24,48,28],
+          "uvUp": [46,24,47,28],
+          "uvNorth": [46,28,47,29],
+          "uvSouth": [51,28,52,29],
+          "uvWest": [42,28,46,29],
+          "uvEast": [47,28,51,29]
+        }
+      ]
+    },
+    {
+      "id": "e2_Cube1",
+      "translate": [4.0,2.5,4.0],
+      "boxes": [
+        {
+          "coordinates": [-9.75,-1.0,0.0,9.75,1.0,1.0],
+          "uvDown": [40,2,41,12],
+          "uvUp": [40,2,41,12],
+          "uvNorth": [39,12,40,13],
+          "uvSouth": [50,12,51,13],
+          "uvWest": [29,12,39,13],
+          "uvEast": [40,12,50,13]
+        }
+      ]
+    },
+    {
+      "id": "e3_Cube1",
+      "translate": [1.25,2.5,13.75],
+      "boxes": [
+        {
+          "coordinates": [-7.0,-1.0,0.0,7.0,1.0,1.0],
+          "uvDown": [39,16,40,22],
+          "uvUp": [38,16,39,22],
+          "uvNorth": [38,22,39,23],
+          "uvSouth": [46,22,47,23],
+          "uvWest": [31,22,38,23],
+          "uvEast": [39,22,46,23]
+        }
+      ]
+    },
+    {
+      "id": "e4_PlaneY42",
+      "translate": [2.25,2.0,5.0],
+      "boxes": [
+        {
+          "coordinates": [-7.75,-0.001,0.0,7.75,0.001,4.0],
+          "uvDown": [42,0,51,4],
+          "uvUp": [42,0,51,4]
+        }
+      ]
+    },
+    {
+      "id": "e5_PlaneY42",
+      "translate": [2.0,2.0,10.0],
+      "boxes": [
+        {
+          "coordinates": [-7.75,-0.001,0.0,7.75,0.001,4.0],
+          "uvDown": [55,0,63,4],
+          "uvUp": [55,0,63,4]
+        }
+      ]
+    },
+    {
+      "id": "e6_PlaneY42",
+      "translate": [-1.75,2.0,14.5],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-0.001,0.0,4.0,0.001,2.75],
+          "uvDown": [56,12,60,15],
+          "uvUp": [57,12,61,15]
+        }
+      ]
+    }
+  ]
+}

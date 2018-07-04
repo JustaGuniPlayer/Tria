@@ -1,0 +1,111 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "chicken",
+  "textureSize": [64,32],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-6.0,-9.5,4.0],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-6.0,0.0,3.0,6.0,3.0],
+          "uvDown": [36,0,39,3],
+          "uvUp": [33,0,36,3],
+          "uvNorth": [33,3,36,9],
+          "uvSouth": [39,3,42,9],
+          "uvWest": [36,3,39,9],
+          "uvEast": [30,3,33,9]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-6.5,-11.75,7.0],
+      "rotate": [45.0,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-4.0,0.0,2.0,4.0,3.0],
+          "uvDown": [24,0,26,3],
+          "uvUp": [22,0,24,3],
+          "uvNorth": [22,3,24,8],
+          "uvSouth": [27,3,29,8],
+          "uvWest": [24,3,27,8],
+          "uvEast": [19,3,22,8]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-5.5,-14.5,2.0],
+      "boxes": [
+        {
+          "coordinates": [-4.0,-3.5,0.0,4.0,3.5,4.5],
+          "uvDown": [9,21,13,27],
+          "uvUp": [5,22,9,27],
+          "uvNorth": [5,27,9,31],
+          "uvSouth": [14,27,18,31],
+          "uvWest": [9,27,14,31],
+          "uvEast": [0,27,5,31]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-7.5,-13.0,7.25],
+      "rotate": [337.5,0.0,0.0],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-1.75,0.0,0.001,1.75,5.5],
+          "uvWest": [25,29,31,31],
+          "uvEast": [34,29,40,31]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-8.5,-17.0,6.25],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-1.75,0.0,0.001,1.75,4.0],
+          "uvWest": [20,29,25,31],
+          "uvEast": [40,29,45,31]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-7.5,-15.25,7.0],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-1.75,0.0,0.001,1.75,7.5],
+          "uvWest": [23,26,32,28],
+          "uvEast": [33,26,42,28]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-6.5,-17.0,6.25],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-1.75,0.0,0.001,1.75,4.0],
+          "uvWest": [20,29,25,31],
+          "uvEast": [40,29,45,31]
+        }
+      ]
+    },
+    {
+      "id": "PlaneX29",
+      "translate": [-7.5,-18.0,3.25],
+      "boxes": [
+        {
+          "coordinates": [-0.001,-2.75,0.0,0.001,2.75,8.25],
+          "uvWest": [21,22,31,25],
+          "uvEast": [34,22,44,25]
+        }
+      ]
+    }
+  ]
+}

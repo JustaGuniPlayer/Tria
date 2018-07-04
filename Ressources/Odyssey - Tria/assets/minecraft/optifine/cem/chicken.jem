@@ -1,0 +1,56 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [64,32],
+  "shadowSize": 0.3,
+  "models": 
+  [
+		{
+      "model": "chicken_body.jpm",
+      "part": "body", 
+      "translate": [8, -8.5, -8.5],
+      "rotate": [-90, 0, 0]
+    },
+		{
+      "model": "chicken_head.jpm",
+      "part": "head", 
+      "translate": [8, 9.5, -5.5],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "chicken_leg_right.jpm",
+      "part": "right_leg", 
+      "translate": [10, 5, -9],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "chicken_leg_left.jpm",
+      "part": "left_leg", 
+      "translate": [7, 5, -9],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "chicken_wing_right.jpm",
+      "part": "right_wing", 
+      "translate": [11.5, 11.5, -9.5],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "chicken_wing_left.jpm",
+      "part": "left_wing", 
+      "translate": [4.5, 11.5, -9.5],
+      "rotate": [0, 0, 0]
+    },
+		{
+      "model": "chicken_bill.jpm",
+      "part": "bill", 
+      "translate": [8, 9.5, -5.5],
+      "rotate": [0, 0, 0]
+    },
+	    {
+      "model": "chicken_empty_chin.jpm",
+      "part": "chin", 
+      "translate": [8, 9.5, -5.5],
+      "rotate": [0, 0, 0]
+    }
+  ]
+}

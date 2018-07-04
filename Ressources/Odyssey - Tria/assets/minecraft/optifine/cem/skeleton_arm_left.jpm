@@ -1,0 +1,98 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.8.438 Beta",
+  "texture": "skeleton",
+  "textureSize": [64,64],
+  "submodels": [
+    {
+      "id": "e0_Box1",
+      "translate": [-12.875,-12.0,10.5],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-2.0,0.0,1.0,2.0,1.0],
+          "uvDown": [50,26,51,27],
+          "uvUp": [49,26,50,27],
+          "uvNorth": [49,27,50,29],
+          "uvSouth": [51,27,52,29],
+          "uvWest": [48,27,49,29],
+          "uvEast": [50,27,51,29]
+        }
+      ]
+    },
+    {
+      "id": "e1_Box1",
+      "translate": [-12.5,-20.0,8.0],
+      "boxes": [
+        {
+          "coordinates": [-3.5,-5.0,0.0,3.5,5.0,3.0],
+          "uvDown": [57,27,61,30],
+          "uvUp": [53,27,57,30],
+          "uvNorth": [53,30,57,35],
+          "uvSouth": [60,30,64,35],
+          "uvWest": [50,30,53,35],
+          "uvEast": [57,30,60,35]
+        }
+      ]
+    },
+    {
+      "id": "e2_Box1",
+      "translate": [-12.5,-13.0,8.0],
+      "boxes": [
+        {
+          "coordinates": [-2.5,-7.0,0.0,2.5,7.0,3.0],
+          "uvDown": [58,36,61,39],
+          "uvUp": [55,36,58,39],
+          "uvNorth": [55,39,58,46],
+          "uvSouth": [61,39,64,46],
+          "uvWest": [52,39,55,46],
+          "uvEast": [58,39,61,46]
+        }
+      ]
+    },
+    {
+      "id": "e3_Box1",
+      "translate": [-14.0,-11.0,8.0],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-2.0,0.0,1.0,2.0,1.0],
+          "uvDown": [45,26,46,27],
+          "uvUp": [44,26,45,27],
+          "uvNorth": [44,27,45,29],
+          "uvSouth": [46,27,47,29],
+          "uvWest": [43,27,44,29],
+          "uvEast": [45,27,46,29]
+        }
+      ]
+    },
+    {
+      "id": "e4_Box1",
+      "translate": [-14.0,-11.0,9.5],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-2.0,0.0,1.0,2.0,1.0],
+          "uvDown": [45,26,46,27],
+          "uvUp": [44,26,45,27],
+          "uvNorth": [44,27,45,29],
+          "uvSouth": [46,27,47,29],
+          "uvWest": [43,27,44,29],
+          "uvEast": [45,27,46,29]
+        }
+      ]
+    },
+    {
+      "id": "e5_Box1",
+      "translate": [-11.625,-25.0,8.5],
+      "boxes": [
+        {
+          "coordinates": [-3.5,-1.0,0.0,3.5,1.0,2.0],
+          "uvDown": [52,54,56,56],
+          "uvUp": [48,54,52,56],
+          "uvNorth": [48,56,52,57],
+          "uvSouth": [54,56,58,57],
+          "uvWest": [46,56,48,57],
+          "uvEast": [52,56,54,57]
+        }
+      ]
+    }
+  ]
+}

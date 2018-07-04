@@ -1,0 +1,23 @@
+{
+	"__comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/m_wall",
+		"texture": "blocks/m_wall",
+		"texture1": "blocks/m_wall_top"
+	},
+	"elements": [
+		{
+			"__comment": "Cube1",
+			"from": [ 5, 0, 0 ],
+			"to": [ 11, 16, 8 ],
+			"faces": {
+				"down": { "uv": [ 2, 0, 9, 8 ], "texture": "#texture1" },
+				"up": { "uv": [ 9, 0, 16, 8 ], "texture": "#texture1" },
+				"north": { "uv": [ 0, 0, 6, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 7, 0, 13, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 7, 0, 15, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

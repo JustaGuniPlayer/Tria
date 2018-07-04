@@ -1,0 +1,81 @@
+{
+  "comment": "Model by Galingueur",
+  "textureSize": [64,64],
+  "shadowSize": 0.3,
+  "models": 
+  [
+    {
+      "model": "w_skeleton_head.jpm",
+      "part": "head",
+	"scale": "0.8",
+      "translate": [-6, 31, 6],
+      "rotate": [0, 180, 0],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.40"
+			}
+		]
+    },
+	    {
+      "model": "w_skeleton_body.jpm",
+      "part": "body",
+	  	"scale": "0.8",
+      "translate": [-6, 24, 6],
+      "rotate": [0, 180, 0]
+    },
+
+    {
+      "model": "w_skeleton_arm_left.jpm",
+      "part": "left_arm",
+	"scale": "0.8",	  
+      "translate": [-11, 24, 6],
+      "rotate": [0, 180, 0],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.17"
+			}
+		]
+    },
+    {
+      "model": "w_skeleton_arm_right.jpm",
+      "part": "right_arm",
+	"scale": "0.8",	  
+      "translate": [-1, 24, 6],
+      "rotate": [0, 180, 0],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.17"
+			}
+		]
+    },
+    {
+      "model": "w_skeleton_leg_left.jpm",
+      "part": "left_leg",
+	"scale": "0.8",	  
+      "translate": [-8, 17, 6],
+      "rotate": [0, 180, 0],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.30"
+			}
+		]
+    },
+    {
+      "model": "w_skeleton_leg_right.jpm",
+      "part": "right_leg",
+	"scale": "0.8",	  
+      "translate": [-4, 17, 6],
+      "rotate": [0, 180, 0],
+	  "animations":
+		[
+			{
+				"part.oy":"-0.30"
+			}
+		]
+    }
+  ]
+}

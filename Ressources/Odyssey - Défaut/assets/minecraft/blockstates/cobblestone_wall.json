@@ -1,0 +1,19 @@
+{
+    "multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "cobble_wall_post" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "cobble_wall_n" }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "cobble_wall_n", "y": 90 }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "cobble_wall_n", "y": 180 }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "cobble_wall_n", "y": 270 }
+        }
+    ]
+}

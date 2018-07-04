@@ -1,0 +1,20 @@
+{
+    "multipart": [
+        {   "when": { "up": "true" },
+            "apply": { "model": "wall_moss_fence_post_3d" }
+        },
+        {   "when": { "north": "true" },
+            "apply": { "model": "wall_moss_fence_n" }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "wall_moss_fence_n", "y": 90 }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "wall_moss_fence_n", "y": 180 }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "wall_moss_fence_n", "y": 270 }
+        }
+    ]
+}
+

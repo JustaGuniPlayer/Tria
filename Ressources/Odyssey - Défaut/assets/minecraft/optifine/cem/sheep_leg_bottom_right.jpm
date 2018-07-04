@@ -1,0 +1,53 @@
+{
+  "comment": "Designed by Galingueur with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "sheep",
+  "textureSize": [128,64],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-12.0,0.0,13.5],
+      "boxes": [
+        {
+          "coordinates": [-1.0,-8.0,0.0,1.0,8.0,2.0],
+          "uvDown": [110,38,111,40],
+          "uvUp": [109,38,110,40],
+          "uvNorth": [109,40,110,48],
+          "uvSouth": [111,40,112,48],
+          "uvWest": [110,40,112,48],
+          "uvEast": [106,40,108,48]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-11.5,-6.0,13.0],
+      "boxes": [
+        {
+          "coordinates": [-2.0,-3.0,0.0,2.0,3.0,3.0],
+          "uvDown": [107,31,110,34],
+          "uvUp": [110,31,113,34],
+          "uvNorth": [107,34,110,37],
+          "uvSouth": [113,34,116,37],
+          "uvWest": [104,34,107,37],
+          "uvEast": [110,34,113,37]
+        }
+      ]
+    },
+    {
+      "id": "Cube1",
+      "translate": [-11.0,-9.0,10.0],
+      "boxes": [
+        {
+          "coordinates": [-3.0,-5.0,0.0,3.0,5.0,6.0],
+          "uvDown": [111,19,115,25],
+          "uvUp": [107,19,111,25],
+          "uvNorth": [107,25,111,30],
+          "uvSouth": [117,25,121,30],
+          "uvWest": [101,25,107,30],
+          "uvEast": [111,25,117,30]
+        }
+      ]
+    }
+  ]
+}
