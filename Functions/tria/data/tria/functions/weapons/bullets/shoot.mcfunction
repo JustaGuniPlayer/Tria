@@ -21,7 +21,7 @@ scoreboard players set @e[tag=InitBullet] CanBeAlive -40
 execute as @e[tag=InitBullet] at @s run tp @s ~ ~1.65 ~
 
 # Sound effect
-execute at @e[tag=Shoot] positioned ^ ^ ^1 run playsound minecraft:entity.firework.blast_far ambient @a[distance=..50] ~ ~ ~ 4
+execute at @e[tag=Shoot] positioned ^ ^ ^1 run playsound minecraft:entity.firework_rocket.blast_far ambient @a[distance=..50] ~ ~ ~ 4
 
 # Recoil
 execute if entity @a[tag=Recoil1] run function tria:weapons/groundweapons/shooting/recoil1

@@ -17,3 +17,6 @@ execute as @a[tag=Dead,scores={ReviveTime=80..}] run function tria:generic/reviv
 #Calls the nearest main AI
 execute at @e[tag=Dead] run scoreboard players set @e[tag=MainAI,scores={FightState=..4},distance=..2,limit=1,sort=nearest] NewFightState 6
 execute unless entity @e[scores={FightState=5..6}] run function tria:ai/ground/combat/death/dead-call
+
+#Particle
+execute at @e[tag=Dead] run particle block redstone_block ~ ~2.5 ~ 0 0 0 0.1 2 force 

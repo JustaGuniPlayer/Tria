@@ -8,5 +8,4 @@ execute as @e[scores={FightState=6}] at @s unless entity @e[tag=Dead,distance=..
 scoreboard players set @e[scores={FightState=6,TargetID=1..}] NewFightState 1
 
 # Animation
-scoreboard players set @e[scores={FightState=6}] gesture 4
-scoreboard players set @e[scores={FightState=6}] gestureTime 5
+scoreboard players set @e[scores={FightState=6,gestureTime=0}] gestureStart 4000010 
