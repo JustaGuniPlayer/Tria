@@ -1,13 +1,14 @@
 INFOS:	
+	Protagoniste: Kassixlom;
 	Logiciel: World Painter;
-	Tailles: 2864x2864 blocks, 360 MO;
-	Temps pour traverser à pied: 24 minutes;
+	Tailles: 4864x4864 blocks, XXX MO;
+	Temps pour traverser à pied: 19 minutes;
 	Niveau de la mer: 31.
 
 
 LAYERS:
 
-	*Montagne:
+	*Montagnes:
 	
 		Cover
 		38% stone (1:0)
@@ -25,7 +26,7 @@ LAYERS:
 		▼cobblestone (4:0)
 		▼light gray concrete power (252:8)	
 		
-	*Plaine:
+	*Plaines:
 	
 		Cover
 		85% grass (2:0)
