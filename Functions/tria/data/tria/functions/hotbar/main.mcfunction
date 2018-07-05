@@ -14,4 +14,5 @@
 #Output: /
 
 #Code:
-execute if entity @a[limit=1,scores={HotbarState=1}] run tria:hotbar/hotbars/tank
+execute if entity @a[limit=1,scores={HotbarState=1}] run function tria:hotbar/hotbars/tank
+execute if entity @a[limit=1,scores={HotbarState=2}] run function tria:hotbar/hotbars/groundcombat/main

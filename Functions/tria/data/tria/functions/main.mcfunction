@@ -57,8 +57,12 @@ execute if entity @e[tag=Bullet] run function tria:weapons/bullets/main
 
 # ---- Other ----------------------------------------------------------------------------------------------
 
+#Hotbars
+function tria:hotbar/main
+
 #Explosions
-#You can make any entity explode by running tria:generic/explosions/(small/big/huge)expl on it
+#You can make any location explode by running tria:generic/explosions/(small/big/huge)expl on it
+#The HugeExpl needs to be executed as an entity, the others don't
 execute as @e[tag=HugeExpl] at @s run function tria:generic/explosions/hugeexplparticles
 execute if entity @a[scores={AnimExpl=1..}] run function tria:generic/explosions/animexpl
 

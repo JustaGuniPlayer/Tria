@@ -26,9 +26,12 @@ scoreboard players remove @a[scores={2ndReloading=1..,ActiveSlot=1},tag=!LockWea
 execute as @a[scores={1stReloading=1,ActiveSlot=0},tag=!LockWeapons] run function tria:weapons/groundweapons/reloading/reload1
 execute as @a[scores={2ndReloading=1,ActiveSlot=1},tag=!LockWeapons] run function tria:weapons/groundweapons/reloading/reload2
 
-# Display + Items
-execute if entity @e[tag=Data,tag=FRA] run function tria:weapons/groundweapons/displayanditemsfr
-execute if entity @e[tag=Data,tag=ENG] run function tria:weapons/groundweapons/displayanditemsen
+# Grenades
+execute as @a[scores={ActiveSlot=7,UseCarrot=1..,InVehicle=0},tag=!LockWeapons] run function tria:weapons/grenades/sticky/throw
+
+# Display
+execute if entity @e[tag=Data,tag=FRA] run function tria:weapons/groundweapons/display_fr
+execute if entity @e[tag=Data,tag=ENG] run function tria:weapons/groundweapons/display_en
 
 # ------------------------------------------------
 # How to use it:
