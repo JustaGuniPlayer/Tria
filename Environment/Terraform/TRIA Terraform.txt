@@ -34,3 +34,9 @@ LAYERS:
 		4% lime terracotta (159:5)
 		4% green terracotta (159:13)
 		1% green concrete (251:13)
+
+BR sizes:
+
+	*Base: X-2
+	*SMOOTH: X-3
+	*MONTAINS: X
