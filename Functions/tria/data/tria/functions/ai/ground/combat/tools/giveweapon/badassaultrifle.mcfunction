@@ -9,8 +9,8 @@ scoreboard players set @s 1stReloadTime 80
 scoreboard players set @s 1stLoadCapacity 8
 
 # Bullets Damages (20 = one heart)
-scoreboard players set @s WeaponDamage 50
-scoreboard players set @s HeadDamage 80
+scoreboard players set @s WeaponDamage 25
+scoreboard players set @s HeadDamage 40
 
 # The unaccuracy of the weapon, the higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Unaccuracy degrees)
 scoreboard players set @s Unaccuracy 50

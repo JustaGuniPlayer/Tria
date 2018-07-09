@@ -50,10 +50,10 @@ function tria:weapons/canon/main
 # ---- Weapons --------------------------------------------------------------------------------------------
 
 #Shoot
-execute if entity @e[tag=Shoot] run function tria:weapons/bullets/shoot
+execute if entity @e[tag=Shoot] run function tria:weapons/projectiles/bullets/shoot
 
 #Bullets movement, damage and collisions
-execute if entity @e[tag=Bullet] run function tria:weapons/bullets/main
+execute if entity @e[tag=Bullet] run function tria:weapons/projectiles/main
 
 # ---- Other ----------------------------------------------------------------------------------------------
 

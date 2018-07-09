@@ -1,8 +1,8 @@
 # Shoots
 
 # Summons the bullet
-execute as @e[tag=Shoot] at @s run summon armor_stand ~ ~ ~ {Tags:["Bullet","InitBullet","CanBeAlive"],NoGravity:1,Marker:1,Invisible:1}
-execute if entity @e[tag=ShootShotgun] run function tria:weapons/bullets/shootshotgun
+execute as @e[tag=Shoot] at @s run summon armor_stand ~ ~ ~ {Tags:["BulletCollisions","DealDamages","Projectile","Bullet","InitBullet","CanBeAlive"],NoGravity:1,Marker:1,Invisible:1}
+execute if entity @e[tag=ShootShotgun] run function tria:weapons/projectiles/bullets/shootshotgun
 
 # Teleports it to the shooter
 execute as @e[tag=InitBullet] at @s run tp @s @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest]
@@ -16,6 +16,9 @@ execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Unaccura
 
 # Lives 2 seconds
 scoreboard players set @e[tag=InitBullet] CanBeAlive -40 
+
+# Speed = 3 blocks / tick
+scoreboard players set @e[tag=InitBullet] ProjectileSpeed 6
 
 # Teleports the bullet to the height of the head of the shooter
 execute as @e[tag=InitBullet] at @s run tp @s ~ ~1.65 ~

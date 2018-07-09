@@ -10,4 +10,6 @@ execute as @e[scores={ID=1..4},tag=!InitMainAI] run scoreboard players add @e[ta
 # Without that, the Timers would be synchronised, which is not interesting because we already have Data's timer for that
 scoreboard players operation @e[tag=InitMainAI,limit=1] Timer2s = @e[tag=Random,scores={Random=1..10},limit=1,sort=random] Random
 
+scoreboard players set @e[tag=InitMainAI] Health 500
+
 tag @e remove InitMainAI
