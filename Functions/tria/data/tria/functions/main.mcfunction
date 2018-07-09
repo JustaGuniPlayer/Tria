@@ -38,6 +38,10 @@ scoreboard players add @e[scores={CanBeAlive=..-1}] CanBeAlive 1
 execute as @e[scores={CanBeAlive=0},type=!player] at @s run tp @s ~ -200 ~
 kill @e[scores={CanBeAlive=0},type=!player]
 
+#Teams joining
+scoreboard players set @e[tag=Ally] Team 1
+scoreboard players set @e[tag=Enemy] Team -1
+
 # ---- Story ----------------------------------------------------------------------------------------------
 
 #TEMPORAIRE: Apres ce sera dans les fichiers de chaque chapitre

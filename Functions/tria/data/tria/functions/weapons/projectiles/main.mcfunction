@@ -18,6 +18,7 @@ function tria:weapons/projectiles/move
 # Add the DealDamages tag to enable damages. The damages amount can be set using the Damage and HeadDamage scores.
 # You have to set the Team score to tell which team the projectile should hit. -1 will deal damages to the team of the players, 1 will deal damages to enemies.
 # Add the GoThroughEntites tag to prevent the projectile from being killed when it hits an entity (After the hit the projectile will get the HasHitEntity tag).
+# Only the entities with the CanBeShot tag can receive damages.
 
 # Collisions:
 # Set the desired tag to determine what behavior the projectile should use.
@@ -38,10 +39,18 @@ function tria:weapons/projectiles/move
 #Team: stores the team of an entity (team of the player: 1, enemy team: -1)
 #Health: stores the health of an AI
 #ProjectileSpeed: The speed of the projectile in half blocks per tick
+#Var1: A variable. It is used everywhere so its value changes all the time, dont use it to store things for more than one tick
+#Var2: A variable. It is used everywhere so its value changes all the time, dont use it to store things for more than one tick
 
 #Tags:
-#Bullet: Identifier of bullets
+#Projectile: Identifier of projectiles
+#Projectile: Identifier of bullets
+#ProjCollide: This tag is given to all the Projectile that hit a block which triggers an event
+#BulletCollisions: This tag tells a projectile to use the collisions behavior of bullets
+#ShellCollisions: This tag tells a projectile to use the collisions behavior of shells
+#DealDamages: This tag tells a projectile to deal damages to entities
 #CanBeShot: All the entities that can be shot by a bullet should have this tag
-#BulletCollide: If a bullet has this tag, the system will determine if the collision is with a glass block or an iron_bars, and if not, do the actions when a bullet hits a wall
-#BulletGlass: If a bullet has this tag, it will do the actions when a bullet hits a glass block
-#BulletBars: If a bullet has this tag, it will do the actions when a bullet hits a iron_bars
+#CollideGlass: If a projectile has this tag, it will do the actions when a bullet hits a glass block
+#CollideBars: If a projectile has this tag, it will do the actions when a bullet hits a iron_bars
+#GoThroughEntities: This tag prevents the projectile from being killed when it hits an entity
+#HasHitEntity: This tag is added when a projectile with GoThroughEntities hits an entity
