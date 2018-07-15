@@ -1,4 +1,4 @@
 #Here put your new ideas, then name your pull request by those :)
 
-  ##Example
+	#Example
 This is the content of my example idea.
