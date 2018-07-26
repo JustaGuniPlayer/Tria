@@ -10,7 +10,7 @@ scoreboard players operation @e[tag=InitDropped] 2ndFirerate = @s 2ndFirerate
 scoreboard players operation @e[tag=InitDropped] 2ndLoadCapacity = @s 2ndLoadCapacity
 scoreboard players operation @e[tag=InitDropped] 2ndWeaponDamage = @s 2ndWeaponDamage
 scoreboard players operation @e[tag=InitDropped] 2ndHeadDamage = @s 2ndHeadDamage
-scoreboard players operation @e[tag=InitDropped] 2ndUnaccuracy = @s 2ndUnaccuracy
+scoreboard players operation @e[tag=InitDropped] 2ndInaccuracy = @s 2ndInaccuracy
 scoreboard players operation @e[tag=InitDropped] 2ndRecoil = @s 2ndRecoil
 scoreboard players operation @e[tag=InitDropped] 2ndAmo = @s 2ndAmo
 scoreboard players operation @e[tag=InitDropped] 2ndAmo += @s 2ndAmoLoaded

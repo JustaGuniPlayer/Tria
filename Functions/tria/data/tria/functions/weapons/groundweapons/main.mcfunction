@@ -66,11 +66,11 @@ execute if entity @e[tag=Data,tag=ENG] run function tria:weapons/groundweapons/d
 #2ndWeaponDamage: The damage dealt by the secondary weapon
 #1stHeadDamage: The damage dealt by the main weapon in the head
 #2ndHeadDamage: The damage dealt by the secondary weapon in the head
-#1stUnaccuracy: The unaccuracy of the main weapon
-#2ndUnaccuracy: The unaccuracy of the secondary weapon
+#1stInaccuracy: The inaccuracy of the main weapon
+#2ndInaccuracy: The inaccuracy of the secondary weapon
 #WeaponDamage: The damage dealt by the current weapon
 #HeadDamage: The damage dealt by the current weapon in the head
-#Unaccuracy: The Unaccuracy of the current weapon
+#Inaccuracy: The Inaccuracy of the current weapon
 #1stRecoil: The recoil of the main weapon
 #2ndRecoil: The recoil of the secondary weapon
 

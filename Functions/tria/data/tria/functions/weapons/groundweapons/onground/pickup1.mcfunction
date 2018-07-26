@@ -10,7 +10,7 @@ scoreboard players operation @s 1stFirerate = @e[tag=PickupWeapon] 1stFirerate
 scoreboard players operation @s 1stLoadCapacity = @e[tag=PickupWeapon] 1stLoadCapacity
 scoreboard players operation @s 1stWeaponDamage = @e[tag=PickupWeapon] 1stWeaponDamage
 scoreboard players operation @s 1stHeadDamage = @e[tag=PickupWeapon] 1stHeadDamage
-scoreboard players operation @s 1stUnaccuracy = @e[tag=PickupWeapon] 1stUnaccuracy
+scoreboard players operation @s 1stInaccuracy = @e[tag=PickupWeapon] 1stInaccuracy
 scoreboard players operation @s 1stRecoil = @e[tag=PickupWeapon] 1stRecoil
 scoreboard players operation @s 1stAmo = @e[tag=PickupWeapon] 1stAmo
 

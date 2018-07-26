@@ -18,5 +18,5 @@ execute unless entity @s[scores={Var1=1}] at @s at @p[scores={ID=1..4}] align y 
 execute unless entity @s[scores={Var1=1}] at @p[scores={ID=1..4}] store success score @s Var1 run tp @s @e[scores={ID=1..4},tag=MainAI,distance=..10,limit=1,sort=furthest]
 
 # On the player
-execute unless entity @s[scores={Var1=1}] run tp @s @p[scores={ID=1..4}]
+execute unless entity @s[scores={Var1=1}] at @p[scores={ID=1..4}] if block ~ ~ ~ #tria:cangothrough run tp @s @p[scores={ID=1..4}]
 

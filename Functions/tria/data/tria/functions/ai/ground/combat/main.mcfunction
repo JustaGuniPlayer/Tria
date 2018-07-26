@@ -47,6 +47,9 @@ execute as @e[tag=FightWithPlayer,scores={FightState=3,1stCdShoot=40..}] at @s u
 # Unimportant AI death
 execute as @e[tag=AIFighting,tag=!MainAI,scores={Health=..0}] at @s run function tria:ai/ground/combat/tools/kill
 
+# AI Orders
+execute if entity @a[scores={ID=1..4,InVehicle=0}] run function tria:ai/ground/combat/orders/main 
+
 # ------------------------------------------------
 # How to use it:
 
@@ -95,7 +98,7 @@ execute as @e[tag=AIFighting,tag=!MainAI,scores={Health=..0}] at @s run function
 #1stAmoLoaded: The number of bullets loaded in the main weapons
 #1stLoadCapacity: The capacity of the main weapons loader
 #WeaponDamage: The damage dealth by the bullets of the current weapon.
-#Unaccuracy: The accuracy of the current weapon. On bullets it's the magnitude of the random orientation vector to apply
+#Inaccuracy: The accuracy of the current weapon. On bullets it's the magnitude of the random orientation vector to apply
 #Damage: On everything without tag NoDamage, damage to be applied. On bullets, damage dealt by hit
 #ReviveTime: The time needed to revive an AI
 #CanBeAlive: Security score. All the entities with 0 are killed. When their score is negative it goes up (-20 allows an entity to live one second).

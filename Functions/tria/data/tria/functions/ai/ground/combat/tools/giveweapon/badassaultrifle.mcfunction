@@ -12,8 +12,8 @@ scoreboard players set @s 1stLoadCapacity 8
 scoreboard players set @s WeaponDamage 25
 scoreboard players set @s HeadDamage 40
 
-# The unaccuracy of the weapon, the higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Unaccuracy degrees)
-scoreboard players set @s Unaccuracy 50
+# The inaccuracy of the weapon, the higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Inaccuracy degrees)
+scoreboard players set @s Inaccuracy 50
 
 # Display
 replaceitem entity @s weapon.mainhand carrot_on_a_stick{display:{Name:"AR"}} 1

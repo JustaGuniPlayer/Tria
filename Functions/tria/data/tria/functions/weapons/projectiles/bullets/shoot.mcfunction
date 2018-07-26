@@ -12,7 +12,7 @@ execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Damage =
 execute as @e[tag=InitBullet] at @s run scoreboard players operation @s HeadDamage = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] HeadDamage
 execute as @e[tag=InitBullet] at @s run scoreboard players operation @s ID = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] ID
 execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Team = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] Team
-execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Unaccuracy = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] Unaccuracy
+execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Inaccuracy = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] Inaccuracy
 
 # Lives 2 seconds
 scoreboard players set @e[tag=InitBullet] CanBeAlive -40 

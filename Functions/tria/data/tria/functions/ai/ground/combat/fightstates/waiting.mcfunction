@@ -13,5 +13,8 @@ execute at @e[tag=BMVillager,tag=!ReviveTarget,limit=1,sort=random] as @e[tag=AI
 # Makes a random movement every 2 seconds 
 scoreboard players set @e[scores={FightState=2,Timer2s=1}] SRmoves 1
 
-# LookAround animation
-execute if entity @e[scores={FightState=2,gestureTime=0}] run function tria:ai/ground/combat/tools/lookaround
+# Idle gesture after a lookAround gesture
+execute as @e[scores={FightState=2,gestureTime=0}] unless entity @s[scores={gesture=8}] run function tria:ai/ground/combat/tools/idle
+
+# LookAround animation after the idle time
+execute as @e[scores={FightState=2,gestureTime=0,gesture=8}] run function tria:ai/ground/combat/tools/lookaround

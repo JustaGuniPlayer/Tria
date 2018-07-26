@@ -15,8 +15,8 @@ scoreboard players set @s 1stLoadCapacity 25
 scoreboard players set @s 1stWeaponDamage 50
 scoreboard players set @s 1stHeadDamage 90
 
-# Unaccuracy of the weapon. The higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Unaccuracy degrees)
-scoreboard players set @s 1stUnaccuracy 15
+# Inaccuracy of the weapon. The higher this number is, the higher the spread of the bullets will be (The maximum shift if 0.04 * Inaccuracy degrees)
+scoreboard players set @s 1stInaccuracy 15
 
 # Recoil of the weapon (in 10th of degrees)
 scoreboard players set @s 1stRecoil 10

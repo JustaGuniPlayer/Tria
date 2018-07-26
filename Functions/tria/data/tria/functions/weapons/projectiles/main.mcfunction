@@ -1,8 +1,8 @@
 # Projectiles
 # Made by: KubbyDev
 
-# Unaccuracy
-execute if entity @e[tag=Projectile,scores={Unaccuracy=1..}] run function tria:weapons/projectiles/unaccuracy
+# Inaccuracy
+execute if entity @e[tag=Projectile,scores={Inaccuracy=1..}] run function tria:weapons/projectiles/inaccuracy
 
 # Movement
 execute as @e[tag=Projectile] run scoreboard players operation @s Var2 = @s ProjectileSpeed
@@ -26,13 +26,13 @@ function tria:weapons/projectiles/move
 # ShellCollisions: Collides with everything not transparent (#tria:transparent), except iron_bars. Breaks glass.
 
 # Other:
-# Set the Unaccuracy score to randomize a projectile orientation. The maximum shift if 0.04 * Unaccuracy degrees (The shift is done everytime the score is > 0, and sets the score to 0)
+# Set the Inaccuracy score to randomize a projectile orientation. The maximum shift if 0.04 * Inaccuracy degrees (The shift is done everytime the score is > 0, and sets the score to 0)
 
 # ------------------------------------------------
 # All the scores and tags used by the whole system
 
 # Scores:
-#Unaccuracy: The unaccuracy of the weapon that fired a bullet. When this score is set on a bullet, it will randomize its orientation
+#Inaccuracy: The inaccuracy of the weapon that fired a bullet. When this score is set on a bullet, it will randomize its orientation
 #Random: used to generate a random number. There's 10 armor_stands with scores on Random from 1 to 10 (target them with @e[tag=Random,scores={Random=1..10},limit=1,sort=random]).
 #Damage: stores the damage of a bullet. When on an AI, applies the damages
 #DamageHead: stores the damage of a bullet in the head.

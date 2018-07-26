@@ -42,6 +42,7 @@ execute if entity @e[tag=doGesture,scores={gesture=4},limit=1] run function tria
 execute if entity @e[tag=doGesture,scores={gesture=5},limit=1] run function tria:ai/animation/gesture/lookaround1
 execute if entity @e[tag=doGesture,scores={gesture=6},limit=1] run function tria:ai/animation/gesture/lookaround2
 execute if entity @e[tag=doGesture,scores={gesture=7},limit=1] run function tria:ai/animation/gesture/lookaround3
+execute if entity @e[tag=doGesture,scores={gesture=8},limit=1] run function tria:ai/animation/gesture/idle
 
 # Synchronizer
 # execute as @e[tag=doGesture] unless entity @s[scores={Head0=0}] store result entity @s Pose.Head[0] float 1 run scoreboard players get @s Head0
@@ -93,3 +94,4 @@ tag @e[tag=doGesture] remove doGesture
 # 5: lookaround1
 # 6: lookaround2
 # 7: lookaround3
+# 8: idle

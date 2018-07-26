@@ -8,7 +8,7 @@ tag @s[scores={1stWeapon=2}] add ShootShotgun
 scoreboard players operation @s 1stCdShoot = @s 1stFirerate
 scoreboard players operation @s WeaponDamage = @s 1stWeaponDamage
 scoreboard players operation @s HeadDamage = @s 1stHeadDamage
-scoreboard players operation @s Unaccuracy = @s 1stUnaccuracy
+scoreboard players operation @s Inaccuracy = @s 1stInaccuracy
 
 # Recoil
 tag @s add Recoil1
