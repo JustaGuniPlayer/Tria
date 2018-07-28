@@ -15,3 +15,6 @@ tag @s add Recoil1
 
 # Amo
 scoreboard players remove @s 1stAmoLoaded 1
+
+# Scope
+scoreboard players operation @s[scores={Sneak=1}] Inaccuracy /= 2 Constant

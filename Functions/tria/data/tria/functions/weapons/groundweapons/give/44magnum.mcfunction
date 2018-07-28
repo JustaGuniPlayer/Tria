@@ -21,6 +21,9 @@ scoreboard players set @s 2ndInaccuracy 10
 # Recoil of the weapon (in 10th of degrees)
 scoreboard players set @s 2ndRecoil 80
 
+# Scope strength (if this tag is given, the scope will give a slowness effect)
+tag @s remove 2ndStrongScope
+
 # Other
 scoreboard players set @s 2ndAmoLoaded 0
 scoreboard players add @s 2ndCdShoot 0

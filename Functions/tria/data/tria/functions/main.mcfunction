@@ -12,6 +12,7 @@
 #The Timer2s on every entity that has the tag Timer2s runs from 1 to 40 constantly
 #The Timer1s on every entity that has the tag Timer1s runs from 1 to 20 constantly
 #The Timer10ticks on every entity that has the tag Timer10ticks runs from 1 to 10 constantly
+#The Timer5ticks on every entity that has the tag Timer5ticks runs from 1 to 5 constantly
 scoreboard players add @e[tag=Timer2s] Timer2s 1
 scoreboard players set @e[scores={Timer2s=41..},tag=Timer2s] Timer2s 1
 scoreboard players add @e[tag=Timer1s] Timer1s 1
@@ -78,3 +79,4 @@ execute as @e[tag=StopMotion] run data merge entity @s {Motion:[0.0,0.0,0.0]}
 scoreboard players set @a Walking 0
 scoreboard players set @a Drop 0
 scoreboard players set @a UseCarrot 0
+scoreboard players set @a Sneak 0

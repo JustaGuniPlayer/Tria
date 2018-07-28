@@ -33,6 +33,11 @@ execute as @a[scores={ActiveSlot=7,UseCarrot=1..,InVehicle=0},tag=!LockWeapons] 
 execute if entity @e[tag=Data,tag=FRA] run function tria:weapons/groundweapons/display_fr
 execute if entity @e[tag=Data,tag=ENG] run function tria:weapons/groundweapons/display_en
 
+# Scope
+effect clear @a[scores={Sneak=0,ID=1..4}] slowness
+effect give @a[scores={Sneak=1,ActiveSlot=0},tag=1stStrongScope] slowness 1 255 true
+effect give @a[scores={Sneak=1,ActiveSlot=1},tag=2ndStrongScope] slowness 1 255 true
+
 # ------------------------------------------------
 # How to use it:
 

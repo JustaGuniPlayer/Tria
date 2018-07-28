@@ -35,7 +35,9 @@ scoreboard players set @e[tag=BMVillager,scores={MoveEndings=0}] CanBeAlive 0
 #Walking (minecraft.custom:minecraft.walk_one_cm): Counts the distance traveled by walking (also works with Basic Movement)
 #MoveEndings: The number of movements a target can end before being removed (-1 = unlimited)
 #Var1: Temporary variable, changes all the time because it's used everywhere
-#Timer10ticks: Runs a 0.5 sec timer on this entity
+#CanBeAlive: Every entity with 0 on this score gets killed
+#gestureStart: Starts a gesture. Encoding: 10^9 * gesture id + gesture time
+#gestureTime: The time left for the gesture to end
 
 # Tags:
 #BasicMoving: When an entity has this tag, it will start moving
@@ -50,3 +52,4 @@ scoreboard players set @e[tag=BMVillager,scores={MoveEndings=0}] CanBeAlive 0
 #NoFire: Prevents entities with this tag from taking fire (2 seconds update)
 #CanBeAlive: All entities with this tag are ignored by the auto kill system (but will be killed after the next reset)
 #FPZombie: The zombies that use this system to follow a player have this tag
+#FollowPlayer: The entities that follow the player have this tag

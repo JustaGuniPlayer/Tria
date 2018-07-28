@@ -3,11 +3,12 @@
 
 execute as @a[scores={1stRecoil=10}] at @s run tp @s ~ ~ ~ ~ ~-1
 execute as @a[scores={1stRecoil=30}] at @s run tp @s ~ ~ ~ ~ ~-3
+execute as @a[scores={1stRecoil=50}] at @s run tp @s ~ ~ ~ ~ ~-5
 execute as @a[scores={1stRecoil=100}] at @s run tp @s ~ ~ ~ ~ ~-10
 
 
 # Old fancy system:
-# Doesn't handle correclty the recoil when the player is moving :/
+# makes weird lags when the player is moving :/
 
 # Summons an armor_stand with the orientation of the player
 #execute as @a[tag=Recoil1] at @s run summon armor_stand ~ ~ ~ {NoGravity:1,Invisible:1,Marker:1,Tags:["RecoilAS"]}

@@ -17,11 +17,11 @@ execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Inaccura
 # Lives 2 seconds
 scoreboard players set @e[tag=InitBullet] CanBeAlive -40 
 
-# Speed = 3 blocks / tick
-scoreboard players set @e[tag=InitBullet] ProjectileSpeed 6
+# Speed = 4 blocks / tick
+scoreboard players set @e[tag=InitBullet] ProjectileSpeed 8
 
 # Teleports the bullet to the height of the head of the shooter
-execute as @e[tag=InitBullet] at @s run tp @s ~ ~1.65 ~
+execute as @e[tag=InitBullet] at @s run tp @s ~ ~1.60 ~
 
 # Sound effect
 execute at @e[tag=Shoot] positioned ^ ^ ^1 run playsound minecraft:entity.firework_rocket.blast_far ambient @a[distance=..50] ~ ~ ~ 4
