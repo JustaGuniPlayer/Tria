@@ -4,5 +4,5 @@
 scoreboard players remove @a[scores={NatRegenTime=1..}] NatRegenTime 1
 
 # Regenerates health
-scoreboard players add @a[scores={NatRegenTime=0,Health=..199}] Health 5
+scoreboard players add @a[scores={NatRegenTime=0,Health=..199},tag=!Dead] Health 5
 scoreboard players set @a[scores={Health=201..}] Health 200

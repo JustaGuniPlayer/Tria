@@ -51,6 +51,7 @@ function tria:systemsactivations/aigesture
 function tria:systemsactivations/playerhealth
 function tria:systemsactivations/playergroundweapons
 function tria:weapons/canon/main
+function tria:ai/mobs/noxus/main
 
 # ---- Weapons --------------------------------------------------------------------------------------------
 
