@@ -27,6 +27,7 @@ function tria:weapons/projectiles/move
 
 # Other:
 # Set the Inaccuracy score to randomize a projectile orientation. The maximum shift if 0.04 * Inaccuracy degrees (The shift is done everytime the score is > 0, and sets the score to 0)
+# Add the OptimisedProjectile tag to make the system check for collisions or hit only once every 2 blocks (instead of once every 1/2 block)
 
 # ------------------------------------------------
 # All the scores and tags used by the whole system
@@ -54,3 +55,4 @@ function tria:weapons/projectiles/move
 #CollideBars: If a projectile has this tag, it will do the actions when a bullet hits a iron_bars
 #GoThroughEntities: This tag prevents the projectile from being killed when it hits an entity
 #HasHitEntity: This tag is added when a projectile with GoThroughEntities hits an entity
+#OptimisedProjectile: This tag makes the system check for collisions or hit only once every 2 blocks (instead of once every 1/2 block)

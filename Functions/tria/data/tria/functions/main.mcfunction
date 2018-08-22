@@ -52,6 +52,11 @@ function tria:systemsactivations/playerhealth
 function tria:systemsactivations/playergroundweapons
 function tria:weapons/canon/main
 function tria:ai/mobs/noxus/main
+function tria:weapons/air_vehicle/base/main
+function tria:weapons/air_vehicle/shuttle/main
+function tria:weapons/ground_vehicle/as_ground_vehicle
+function tria:weapons/ground_vehicle/as_tank
+function tria:weapons/guided_missile/main
 
 # ---- Weapons --------------------------------------------------------------------------------------------
 
@@ -59,7 +64,7 @@ function tria:ai/mobs/noxus/main
 execute if entity @e[tag=Shoot] run function tria:weapons/projectiles/bullets/shoot
 
 #Bullets movement, damage and collisions
-execute if entity @e[tag=Bullet] run function tria:weapons/projectiles/main
+execute if entity @e[tag=Projectile] run function tria:weapons/projectiles/main
 
 # ---- Other ----------------------------------------------------------------------------------------------
 
@@ -67,8 +72,8 @@ execute if entity @e[tag=Bullet] run function tria:weapons/projectiles/main
 function tria:hotbar/main
 
 #Explosions
-#You can make any location explode by running tria:generic/explosions/(small/big/huge)expl on it
-#The HugeExpl needs to be executed as an entity, the others don't
+#You can make any location explode by running tria:generic/explosions/(tiny/small/big/huge) on it
+#The huge needs to be executed as an entity, the others don't
 execute as @e[tag=HugeExpl] at @s run function tria:generic/explosions/hugeexplparticles
 execute if entity @a[scores={AnimExpl=1..}] run function tria:generic/explosions/animexpl
 

@@ -19,7 +19,7 @@ execute as @e[scores={FPrange=1},tag=FollowPlayer] at @s run data merge entity @
 # How to use it:
 
 # To make any entity follow the nearest player with ID = 1 to 4:
-# /execute as @e[any entity (With an ID)] run function tria:ai/ground/movement/followplayer/start
+# /execute as @e[any entity] run function tria:ai/ground/movement/followplayer/start
 
 # To stop the follow:
 # /execute as @e[your entity] run function tria:ai/ground/movement/followplayer/stop

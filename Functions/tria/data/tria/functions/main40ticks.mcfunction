@@ -13,6 +13,7 @@ execute if entity @e[name=Data,type=armor_stand,tag=FRA] run tag @a add FRA
 
 #Effects
 effect give @e[tag=Invisible] invisibility 3 0 true
+effect give @e[tag=NoGravity] levitation 3 255 true
 
 #Gesture Initialisation
 scoreboard players add @e gestureTime 0
@@ -20,4 +21,5 @@ execute as @e[type=!player] unless entity @s[scores={gestureSpeed=1..}] run scor
 
 #Scores Initialisations
 scoreboard players add @a Order 0
+scoreboard players add @e[tag=CanBeShot] SpecialHitbox 0
 

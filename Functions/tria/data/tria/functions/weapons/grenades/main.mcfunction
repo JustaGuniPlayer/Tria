@@ -1,7 +1,7 @@
 
 # Explosions
 scoreboard players remove @e[tag=Grenade] GrenadeCooldown 1
-execute at @e[tag=Grenade,scores={GrenadeCooldown=0}] run function tria:generic/explosions/smallexpl
+execute at @e[tag=Grenade,scores={GrenadeCooldown=0}] run function tria:generic/explosions/small
 kill @e[tag=Grenade,scores={GrenadeCooldown=0}]
  
 # Additionnal behaviors

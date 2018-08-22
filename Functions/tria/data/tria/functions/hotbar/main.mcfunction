@@ -14,5 +14,12 @@
 #Output: /
 
 #Code:
-execute if entity @a[limit=1,scores={HotbarState=1}] run function tria:hotbar/hotbars/tank
-execute if entity @a[limit=1,scores={HotbarState=2}] run function tria:hotbar/hotbars/groundcombat/main
+
+# Ground
+execute if entity @a[scores={HotbarState=1}] run function tria:hotbar/hotbars/groundcombat/main
+
+# Ground Vehicles
+execute if entity @a[scores={HotbarState=100}] run function tria:hotbar/hotbars/tank/main
+
+# Air and Space Vehicles
+execute if entity @a[scores={HotbarState=200}] run function tria:hotbar/hotbars/shuttle/main

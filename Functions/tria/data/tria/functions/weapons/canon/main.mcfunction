@@ -35,5 +35,5 @@ execute if entity @e[tag=CanonBullet] run function tria:weapons/canon/bullet
 # CanonRay: Identifier of the entity that draws the ray
 # RayParticles: Identifier of the entities that place the particles
 # CanonBullet: Identifier of the bullet
-# CanonExplode: When the CanonBullet has this tag, it will be kill and will summon an entity to make a hugeexpl
+# CanonExplode: When the CanonBullet has this tag, it will be kill and will summon an entity to make a huge
 # LoadCanon: This tag is given during the loading time of the canon

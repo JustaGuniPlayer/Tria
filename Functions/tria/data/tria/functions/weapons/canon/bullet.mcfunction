@@ -19,6 +19,6 @@ execute as @e[tag=CanonBullet] at @s unless block ~ ~ ~ #tria:transparent run ta
 execute as @e[tag=CanonExplode] at @s run summon armor_stand ~ ~ ~ {Tags:["InitCanonExplosion"],NoGravity:1,Marker:1,Invisible:1}
 kill @e[tag=CanonExplode]
 
-execute as @e[tag=InitCanonExplosion] at @s run function tria:generic/explosions/hugeexpl
+execute as @e[tag=InitCanonExplosion] at @s run function tria:generic/explosions/huge
 scoreboard players set @e[tag=InitCanonExplosion] CanBeAlive -10
 tag @e remove InitCanonExplosion

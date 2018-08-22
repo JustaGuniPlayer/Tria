@@ -58,12 +58,12 @@ execute if entity @a[scores={ID=1..4,InVehicle=0}] run function tria:ai/ground/c
 # execute as (Your AI) run function tria:ai/ground/combat/tools/init
 
 # By default your AI has an assault rifle, you can change it:
-# execute as (Your AI) run function tria:ai/ground/combat/tools/giveweapon/assaultrifle
+# execute as (Your AI) run function tria:ai/ground/combat/tools/giveweapon/(weapon name)
 
 # If you want a AI to stay close to the player during the fight, add the FightWithPlayer tag
 
 # If you want a fighting AI to move you have to set its NewFightState to 4. 
-# The AI will go back to combat if it recieves a bullet or if it stays static for 2 seconds
+# The AI will go back to combat if it recieves a bullet or if it stays static for 3 seconds
 
 # ------------------------------------------------
 # Fight States:
