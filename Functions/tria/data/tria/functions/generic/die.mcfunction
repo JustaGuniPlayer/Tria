@@ -8,8 +8,8 @@ tag @s add LockWeapons
 tag @s remove CanBeShot
 tag @s remove Health0
 execute as @s at @s run playsound minecraft:entity.player.hurt ambient @s
-effect give @s blindness 1000 0 true
-effect give @s weakness 1000 255 true
+effect give @s blindness 3 0 true
+effect give @s weakness 10000 255 true
 gamemode spectator @s
 
 # Summons the target

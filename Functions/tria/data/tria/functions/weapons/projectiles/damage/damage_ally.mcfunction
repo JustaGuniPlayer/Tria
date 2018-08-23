@@ -7,8 +7,8 @@ tag @e[tag=CanBeShot,scores={Team=1},distance=..0.8,limit=1,sort=nearest] add Bu
 scoreboard players operation @e[tag=BulletTarget,limit=1] Health -= @s Damage
 
 # Sound and particle
-execute at @s run particle minecraft:block redstone_block ~ ~1 ~ 0.1 0.1 0.1 0.2 20 force
-playsound minecraft:entity.villager.hurt ambient @a[distance=..8] ~ ~1 ~ 0.2
+execute at @s run particle minecraft:block redstone_block ~ ~ ~ 0.1 0.1 0.1 0.2 20 force
+playsound minecraft:entity.villager.hurt ambient @a[distance=..8] ~ ~ ~ 0.2
 
 # Explosion if it's supposed to
 execute at @s[tag=ShellCollisions] run function tria:generic/explosions/small
