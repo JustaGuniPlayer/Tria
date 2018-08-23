@@ -13,6 +13,8 @@ execute as @e[tag=InitBullet] at @s run scoreboard players operation @s HeadDama
 execute as @e[tag=InitBullet] at @s run scoreboard players operation @s ID = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] ID
 execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Team = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] Team
 execute as @e[tag=InitBullet] at @s run scoreboard players operation @s Inaccuracy = @e[tag=Shoot,distance=..0.1,limit=1,sort=nearest] Inaccuracy
+execute at @e[tag=Shoot,tag=ExplosiveBullet] run tag @e[tag=InitBullet,distance=..0.1,limit=1,sort=nearest] add ShellCollisions
+tag @e[tag=InitBullet,tag=ShellCollisions] remove BulletCollisions
 
 # Lives 2 seconds
 scoreboard players set @e[tag=InitBullet] CanBeAlive -40 

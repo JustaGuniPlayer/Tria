@@ -17,14 +17,14 @@ execute as @e[tag=Noxus] run scoreboard players operation @s HeadDamage = @s Hea
 scoreboard players set @e[tag=Noxus,scores={Timer1s=2,Health=60..,Var1=0}] Timer1s 1
 
 # Blood effect
-execute as @e[tag=Noxus,scores={Timer1s=2..20}] at @s run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 0.2 5 force
-effect give @e[tag=Noxus,scores={Timer1s=2}] slowness 1 1 true
+execute as @e[tag=Noxus,scores={Timer1s=2..20}] at @s run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 0.2 2 force
+effect give @e[tag=Noxus,scores={Timer1s=2}] slowness 1 2 true
 
 # Bites
 tag @e remove BittenByNoxus
 effect clear @a[tag=AttackedByNoxus,tag=!BittenByNoxus,tag=!Dead] blindness
 effect clear @a[tag=AttackedByNoxus,tag=!BittenByNoxus] slowness
-execute at @e[tag=Noxus] run tag @e[tag=AttackedByNoxus,tag=!Dead,distance=..2,limit=1,sort=nearest] add BittenByNoxus
+execute at @e[tag=Noxus] run tag @e[tag=AttackedByNoxus,tag=!Dead,distance=..1.5,limit=1,sort=nearest] add BittenByNoxus
 execute if entity @e[tag=BittenByNoxus] run function tria:ai/mobs/noxus/bite
 
 # Sheeps Management

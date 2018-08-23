@@ -4,6 +4,8 @@
 # Shoots
 tag @s add Shoot
 
+tag @s remove ExplosiveBullet
+tag @s[tag=2ndExplosive] add ExplosiveBullet
 scoreboard players operation @s 2ndCdShoot = @s 2ndFirerate
 scoreboard players operation @s WeaponDamage = @s 2ndWeaponDamage
 scoreboard players operation @s HeadDamage = @s 2ndHeadDamage

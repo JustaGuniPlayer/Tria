@@ -10,6 +10,9 @@ scoreboard players operation @e[tag=BulletTarget,limit=1] Health -= @s HeadDamag
 execute at @s run particle minecraft:block redstone_block ~ ~1 ~ 0.1 0.1 0.1 0.2 20 force
 playsound minecraft:entity.villager.hurt ambient @a[distance=..8] ~ ~1 ~ 0.2
 
+# Explosion if it's supposed to
+execute at @s[tag=ShellCollisions] run function tria:generic/explosions/small
+
 # Kills the bullet or adds the tag
 kill @s[tag=!GoThroughEntities]
 tag @s[tag=GoThroughEntities] add HasHitEntity

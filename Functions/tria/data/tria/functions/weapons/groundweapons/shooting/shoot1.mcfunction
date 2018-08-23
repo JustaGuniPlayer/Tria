@@ -5,6 +5,8 @@
 tag @s add Shoot
 tag @s[scores={1stWeapon=2}] add ShootShotgun
 
+tag @s remove ExplosiveBullet
+tag @s[tag=1stExplosive] add ExplosiveBullet
 scoreboard players operation @s 1stCdShoot = @s 1stFirerate
 scoreboard players operation @s WeaponDamage = @s 1stWeaponDamage
 scoreboard players operation @s HeadDamage = @s 1stHeadDamage

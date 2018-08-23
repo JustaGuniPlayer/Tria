@@ -24,6 +24,9 @@ scoreboard players set @s 1stRecoil 100
 # Scope strength (if this tag is given, the scope will give a slowness effect)
 tag @s remove 1stStrongScope
 
+# Explosive (if this tag is given, the weapon will shoot explosive bullets)
+tag @s remove 1stExplosive
+
 # Other
 scoreboard players set @s 1stAmoLoaded 0
 scoreboard players add @s 1stCdShoot 0
